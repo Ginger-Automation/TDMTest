@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="19" LastUpdateBy="natishak" LastUpdate="202007160826" />
+<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="21" LastUpdateBy="natishak" LastUpdate="202007160833" />
 <BusinessFlow Elapsed="56439" Guid="b75cdce4-c237-4a65-93a5-afb4a917c46f" Name="Provide" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="CPQ" ActivityName="CPQ_Provide" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
@@ -184,7 +184,6 @@
 <OptionalValue Guid="a0c13011-a829-4829-b215-7b67921cd290" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CCC" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableString Guid="dd99302b-9e0f-446b-bb13-08b9f21d6945" MappedOutputType="None" Name="Test variable" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" />
 <VariableString Guid="00727de4-bde0-4761-85a8-681e8a86c282" MappedOutputType="None" Name="CategoryNum" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
 <VariableString Guid="4c536ec6-cb23-4e94-88d2-56efa352a129" MappedOutputType="None" Name="ProvideTime" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" SetAsInputValue="False" />
 <VariableString Guid="c8abfa68-9475-4812-a0e8-251a0f2bb080" MappedOutputType="None" Name="ProvideTrackingID" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" SetAsInputValue="False" />
