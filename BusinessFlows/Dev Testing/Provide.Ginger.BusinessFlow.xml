@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="15" LastUpdateBy="natishak" LastUpdate="202007151438" />
+<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="17" LastUpdateBy="natishak" LastUpdate="202007160617" />
 <BusinessFlow Elapsed="56439" Guid="b75cdce4-c237-4a65-93a5-afb4a917c46f" Name="Provide" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="CPQ" ActivityName="CPQ_Provide" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
@@ -23,7 +23,12 @@
 <ActInputValue Guid="002184bd-4daa-4b03-b14e-b2162b9f5a5d" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="86023097-484d-4381-93fb-f502b5dd3a5d" />
 </InputValues>
 </ActWebAPIModel>
-<ActeMail Active="True" Description="Email Action" Guid="229570ad-c43e-4b81-aa4c-ae3f8c68bd3c" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActeMail Active="True" Description="Email Action" Guid="229570ad-c43e-4b81-aa4c-ae3f8c68bd3c" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="a85b6ac7-9f08-424d-b23c-9273f7d52681" Param="Host" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="68c5bfc4-0146-4c47-b115-c009e4d7d0a5" Param="Port" ParentGuid="00000000-0000-0000-0000-000000000000" Value="25" />
+</InputValues>
+</ActeMail>
 <ActWebAPIModel Active="True" Description="Provide API- Step2" Guid="8075156a-4fc3-42c1-b796-ca51c3503bba" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
 <EnhancedActInputValue Guid="25b6cdeb-29bf-45f3-9155-2c64ca0ed29b" Param="{STRING}" ParamGuid="ce389f89-2c84-49bf-9966-7f67878a76cf" ParentGuid="00000000-0000-0000-0000-000000000000" Value="aa" />
@@ -161,12 +166,12 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="40efa2c3-b4d3-4ca7-91d8-980d872d0050" Name="CPQ" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ActivityName="CPQ_Provide" Guid="e33f4aad-52f4-4642-9c1e-651c61983d8a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ActivityName="CPQ_Provide" Guid="bc97b507-eaed-41a7-af24-69895fb0a31a" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="c9a1f673-52c3-4313-a05d-02daebe4051e" Name="SOM" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="13b3175a-8e93-4788-a8cf-734bfc40a82a" ActivityName="SOM_Provide" Guid="213c53a4-7843-4178-bea0-19f0ccaad005" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="13b3175a-8e93-4788-a8cf-734bfc40a82a" ActivityName="SOM_Provide" Guid="1b0a3417-d2bd-4b60-abf9-389a516f1557" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
@@ -185,6 +190,7 @@
 <OptionalValue Guid="a0c13011-a829-4829-b215-7b67921cd290" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CCC" />
 </OptionalValuesList>
 </VariableSelectionList>
+<VariableString Guid="dd99302b-9e0f-446b-bb13-08b9f21d6945" MappedOutputType="None" Name="Test variable" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" />
 <VariableString Guid="00727de4-bde0-4761-85a8-681e8a86c282" MappedOutputType="None" Name="CategoryNum" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
 <VariableString Guid="4c536ec6-cb23-4e94-88d2-56efa352a129" MappedOutputType="None" Name="ProvideTime" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" SetAsInputValue="False" />
 <VariableString Guid="c8abfa68-9475-4812-a0e8-251a0f2bb080" MappedOutputType="None" Name="ProvideTrackingID" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" SetAsInputValue="False" />
