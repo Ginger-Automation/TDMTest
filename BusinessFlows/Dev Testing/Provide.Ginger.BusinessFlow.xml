@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="22" LastUpdateBy="natishak" LastUpdate="202007171506" />
+<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="23" LastUpdateBy="natishak" LastUpdate="202007171510" />
 <BusinessFlow Elapsed="56439" Guid="b75cdce4-c237-4a65-93a5-afb4a917c46f" Name="Provide" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="CPQ" ActivityName="CPQ_Provide" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="CPQ" ActivityName="CPQ_Provide" AutomationStatus="Development" Description="xdxc" ErrorHandlerMappingType="AllAvailableHandlers" Guid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
 <Acts>
 <ActWebAPIModel Active="True" Description="Provide API- Step1" Guid="023fb4e8-6680-44ed-8637-4c6de8545e99" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
@@ -161,12 +161,12 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="40efa2c3-b4d3-4ca7-91d8-980d872d0050" Name="CPQ" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ActivityName="CPQ_Provide" Guid="9618dc75-9c34-4e02-8846-4b890401ee11" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="xdxc" ActivityGuid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ActivityName="CPQ_Provide" Guid="d36e15bc-cd6b-444a-839b-6c137134045b" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="c9a1f673-52c3-4313-a05d-02daebe4051e" Name="SOM" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="13b3175a-8e93-4788-a8cf-734bfc40a82a" ActivityName="SOM_Provide" Guid="76a452bd-44ae-427d-b0ff-b5f35048da5f" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="13b3175a-8e93-4788-a8cf-734bfc40a82a" ActivityName="SOM_Provide" Guid="c33fbfa1-6d3d-47ea-ac98-752d7d3f18e4" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
