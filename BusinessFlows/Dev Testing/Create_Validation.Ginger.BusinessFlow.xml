@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c3d7d9ad-4336-4576-a516-e9814dc9d523" ItemType="BusinessFlow" CreatedBy="menik" Created="202007191312" GingerVersion="3.6.0.0" Version="4" LastUpdateBy="menik" LastUpdate="202007191318" />
+<BusinessFlow Guid="c3d7d9ad-4336-4576-a516-e9814dc9d523" Name="Create_Validation" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="cadab7b5-f960-474a-ade0-32aa91399507" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CPQ">
+<Acts>
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Validate registered Agent" Guid="5a0f1c1f-7967-4dad-ae01-2a6eb76bf6a9" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; where &quot;Status&quot;='Registered'" />
+<ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
+<ActInputValue Guid="b0665796-5157-4f3a-918d-9264b4108d96" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="41ffc10f-666a-424c-bf6c-855db70608da" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="96750acc-9edf-4022-8409-5c0193226dd7" mExpected="Registered" Operator="Equals" Param="Status" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActDBValidation>
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Validate agent capacity" Guid="ab518b98-4653-4108-8929-0407381e380a" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; where &quot;Status&quot;='Registered'" />
+<ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
+<ActInputValue Guid="b0665796-5157-4f3a-918d-9264b4108d96" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="41ffc10f-666a-424c-bf6c-855db70608da" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="a3318b89-e240-42c1-8ed3-9773c3a06a44" mExpected="2" Operator="Equals" Param="ProcessesCapacity" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActDBValidation>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="05fc1ef6-a993-4193-a984-c19d8c942f19" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cadab7b5-f960-474a-ade0-32aa91399507" ActivityName="Activity 1" Guid="cdece86d-fd98-4f4d-a12f-aee3f388eee9" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="CPQ" Guid="9e4b54b6-6224-420e-8085-2ddb5a74154c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
