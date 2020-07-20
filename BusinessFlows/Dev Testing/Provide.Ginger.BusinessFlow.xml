@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="23" LastUpdateBy="natishak" LastUpdate="202007171510" />
+<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="24" LastUpdateBy="natishak" LastUpdate="202007201312" />
 <BusinessFlow Elapsed="56439" Guid="b75cdce4-c237-4a65-93a5-afb4a917c46f" Name="Provide" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="CPQ" ActivityName="CPQ_Provide" AutomationStatus="Development" Description="xdxc" ErrorHandlerMappingType="AllAvailableHandlers" Guid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
@@ -23,7 +23,6 @@
 <ActInputValue Guid="002184bd-4daa-4b03-b14e-b2162b9f5a5d" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="86023097-484d-4381-93fb-f502b5dd3a5d" />
 </InputValues>
 </ActWebAPIModel>
-<ActeMail Active="True" Description="Email Action" Guid="cf2922e8-472d-4755-a1f4-3bc0839b4c41" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
 <ActWebAPIModel Active="True" Description="Provide API- Step2" Guid="8075156a-4fc3-42c1-b796-ca51c3503bba" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
 <EnhancedActInputValue Guid="25b6cdeb-29bf-45f3-9155-2c64ca0ed29b" Param="{STRING}" ParamGuid="ce389f89-2c84-49bf-9966-7f67878a76cf" ParentGuid="00000000-0000-0000-0000-000000000000" Value="aa" />
