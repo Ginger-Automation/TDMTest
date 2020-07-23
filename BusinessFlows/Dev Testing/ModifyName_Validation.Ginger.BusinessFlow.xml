@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="10244c7a-0a8e-4f90-ad74-069b5e872787" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231554" GingerVersion="3.6.0.0" Version="4" LastUpdateBy="MENIK" LastUpdate="202007231557" />
+<BusinessFlow Guid="10244c7a-0a8e-4f90-ad74-069b5e872787" Name="ModifyPackage_Validation" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="e80c111b-0e0f-4dcb-abeb-23b8cb56ae84" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="SOM">
+<Acts>
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 2" Guid="42e9f5a1-1ceb-4b53-9203-964dcf680afd" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; Limit 1" />
+<ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
+<ActInputValue Guid="b0665796-5157-4f3a-918d-9264b4108d96" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="41ffc10f-666a-424c-bf6c-855db70608da" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="0e2b596d-f1aa-4757-a14d-0ca7ecc3f4db" mExpected="http" Operator="Contains" Param="Address" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActDBValidation>
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Validate Customer status is valid" Guid="78b8ee39-9dfe-4014-8a41-39ff43de34bf" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; Limit 1" />
+<ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
+<ActInputValue Guid="b0665796-5157-4f3a-918d-9264b4108d96" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="41ffc10f-666a-424c-bf6c-855db70608da" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="0e2b596d-f1aa-4757-a14d-0ca7ecc3f4db" mExpected="http" Operator="Contains" Param="Address" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActDBValidation>
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 1" Guid="d86e1254-568e-4d50-9705-e117b931b1ac" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; Limit 1" />
+<ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
+<ActInputValue Guid="b0665796-5157-4f3a-918d-9264b4108d96" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="41ffc10f-666a-424c-bf6c-855db70608da" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="0e2b596d-f1aa-4757-a14d-0ca7ecc3f4db" mExpected="http" Operator="Contains" Param="Address" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActDBValidation>
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 3" Guid="fcc2f273-cea5-4e15-8bbc-ff963c6a9e55" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; Limit 1" />
+<ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
+<ActInputValue Guid="b0665796-5157-4f3a-918d-9264b4108d96" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="41ffc10f-666a-424c-bf6c-855db70608da" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="0e2b596d-f1aa-4757-a14d-0ca7ecc3f4db" mExpected="http" Operator="Contains" Param="Address" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActDBValidation>
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 4" Guid="0aac9bfb-f185-405b-9ae9-fabe5619ad0b" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; Limit 1" />
+<ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
+<ActInputValue Guid="b0665796-5157-4f3a-918d-9264b4108d96" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="41ffc10f-666a-424c-bf6c-855db70608da" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="0e2b596d-f1aa-4757-a14d-0ca7ecc3f4db" mExpected="http" Operator="Contains" Param="Address" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActDBValidation>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="de348bc2-e6f7-4ad1-bad3-06fc8962d936" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e80c111b-0e0f-4dcb-abeb-23b8cb56ae84" ActivityName="Activity 1" Guid="cb5336c9-d3d9-41e1-b923-2364bef45db7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="SOM" Guid="b023e5fc-19a2-4960-8f47-f570f657cd8c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="b95ab8c8-f930-49a6-8411-82e86e33b1af" MappedOutputType="None" Name="CustomerIDToCheck" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="e60ef7c8-ee36-4c01-8a17-015ca4729001" MappedOutputType="None" Name="CustomerPackageToConfirm" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="27968287-bf02-4eb5-8e2e-da2da6e5a270" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="153" LastUpdateBy="MENIK" LastUpdate="202007161855" />
+<GingerRepositoryItem><Header ItemGuid="27968287-bf02-4eb5-8e2e-da2da6e5a270" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="161" LastUpdateBy="MENIK" LastUpdate="202007231615" />
 <RunSetConfig Guid="27968287-bf02-4eb5-8e2e-da2da6e5a270" Name="BP_Provide" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="e0e3b173-53ee-4816-ac9f-d290640dc937" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="VAPP_89" UseSpecificEnvironment="True">
@@ -9,7 +9,7 @@
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" BusinessFlowInstanceGuid="2344ff6e-6947-497c-9ff0-33fde2c93d45" BusinessFlowIsActive="True" BusinessFlowName="Provide" Guid="d5812a67-22fc-472d-88c0-3dc18766a7a8" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowRun BusinessFlowGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" BusinessFlowInstanceGuid="2344ff6e-6947-497c-9ff0-33fde2c93d45" BusinessFlowIsActive="True" BusinessFlowName="Provide" Guid="916fa4d2-3cc7-4005-bc14-ad25de77f47d" ParentGuid="00000000-0000-0000-0000-000000000000">
 <BusinessFlowCustomizedRunVariables>
 <VariableSelectionList DiffrentFromOrigin="True" Guid="4716907d-3294-4c71-b7a8-9f95f6cd2fc8" MappedOutputType="None" Name="PackageType" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" Value="CCC" VarValChanged="True">
 <OptionalValuesList>
@@ -21,7 +21,7 @@
 <VariableString DiffrentFromOrigin="True" Guid="00727de4-bde0-4761-85a8-681e8a86c282" InitialStringValue="666" MappedOutputType="None" Name="CategoryNum" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" VarValChanged="True" />
 </BusinessFlowCustomizedRunVariables>
 </BusinessFlowRun>
-<BusinessFlowRun BusinessFlowGuid="3d7f5675-ba0e-4cf5-b42c-35313c043da8" BusinessFlowInstanceGuid="9f93fdb9-d353-40f8-9cf3-de668c3030f1" BusinessFlowIsActive="True" BusinessFlowName="ModifyPackage" Guid="d30f9e5a-2397-4dc1-98a5-ab7d1ce7e8d6" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowRun BusinessFlowGuid="3d7f5675-ba0e-4cf5-b42c-35313c043da8" BusinessFlowInstanceGuid="9f93fdb9-d353-40f8-9cf3-de668c3030f1" BusinessFlowIsActive="True" BusinessFlowName="ModifyPackage" Guid="4b243cb3-0b35-4164-ad7d-e43ef48827ee" ParentGuid="00000000-0000-0000-0000-000000000000">
 <BusinessFlowCustomizedRunVariables>
 <VariableString DiffrentFromOrigin="True" Guid="94b50452-f59c-422c-a5c1-3a8ddef89a46" MappedOutputType="OutputVariable" MappedOutputValue="c65d596b-3d81-44b7-a6c2-38dbf5566c4d" Name="CustomerIDToModifyPackage" ParentGuid="3d7f5675-ba0e-4cf5-b42c-35313c043da8" ParentName="ModifyPackage" ParentType="Business Flow" Publish="True" />
 <VariableSelectionList DiffrentFromOrigin="True" Guid="db9dcffe-c4f9-4c69-b823-66b91d58d3c8" MappedOutputType="OutputVariable" MappedOutputValue="4716907d-3294-4c71-b7a8-9f95f6cd2fc8" Name="CustomerPackage" ParentGuid="3d7f5675-ba0e-4cf5-b42c-35313c043da8" ParentName="ModifyPackage" ParentType="Business Flow" Publish="True" Value="AAA">
@@ -33,9 +33,21 @@
 </VariableSelectionList>
 </BusinessFlowCustomizedRunVariables>
 </BusinessFlowRun>
-<BusinessFlowRun BusinessFlowGuid="80e3a8df-6af6-4026-b15e-fe033c54699b" BusinessFlowInstanceGuid="d18022b1-6204-48dd-8d7b-91c534992667" BusinessFlowIsActive="True" BusinessFlowName="ModifyName" Guid="da17d39e-509e-4673-b89a-a957ca17bd43" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowRun BusinessFlowGuid="80e3a8df-6af6-4026-b15e-fe033c54699b" BusinessFlowInstanceGuid="d18022b1-6204-48dd-8d7b-91c534992667" BusinessFlowIsActive="True" BusinessFlowName="ModifyName" Guid="8a956d26-73a4-4924-8949-af984ac0b520" ParentGuid="00000000-0000-0000-0000-000000000000">
 <BusinessFlowCustomizedRunVariables>
 <VariableString DiffrentFromOrigin="True" Guid="43769aaa-7977-47aa-96de-dedbd98459fc" MappedOutputType="OutputVariable" MappedOutputValue="c65d596b-3d81-44b7-a6c2-38dbf5566c4d" Name="CustomerIDToModify" ParentGuid="80e3a8df-6af6-4026-b15e-fe033c54699b" ParentName="ModifyName" ParentType="Business Flow" Publish="True" />
+</BusinessFlowCustomizedRunVariables>
+</BusinessFlowRun>
+<BusinessFlowRun BusinessFlowGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" BusinessFlowInstanceGuid="fdeb2a42-21aa-422d-9998-168acb932992" BusinessFlowIsActive="True" BusinessFlowName="Generic Validation 1" Guid="0e0503c0-c086-4625-981d-9f67c2ca8e8f" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowCustomizedRunVariables>
+<VariableString DiffrentFromOrigin="True" Guid="76704afd-c090-4afb-8a48-d950156f1fe8" MappedOutputType="OutputVariable" MappedOutputValue="c65d596b-3d81-44b7-a6c2-38dbf5566c4d" Name="CustomerID" ParentGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ParentName="Generic Validation 1" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableSelectionList DiffrentFromOrigin="True" Guid="8f2f0f8f-b161-422d-adba-8e08dacf2294" MappedOutputType="None" Name="ValidationType" ParentGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ParentName="Generic Validation 1" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" Value="BBB" VarValChanged="True">
+<OptionalValuesList>
+<OptionalValue Guid="c051bac9-1217-44a5-af6a-9c69b3d92b0b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AAA" />
+<OptionalValue Guid="afc3894d-73ed-4601-ab25-3c61e80a8ecc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="BBB" />
+<OptionalValue Guid="25ceed3c-1db1-4fd7-a229-7c3176477d37" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CCC" />
+</OptionalValuesList>
+</VariableSelectionList>
 </BusinessFlowCustomizedRunVariables>
 </BusinessFlowRun>
 </BusinessFlowsRunList>
