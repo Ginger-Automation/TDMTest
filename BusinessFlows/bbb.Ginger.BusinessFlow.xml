@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="429180b4-924d-416c-90b9-c74d6917d6d2" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202008130955" GingerVersion="3.6.0.0" Version="1" LastUpdateBy="MENIK" LastUpdate="202008130955" />
+<BusinessFlow Guid="429180b4-924d-416c-90b9-c74d6917d6d2" Name="bbb" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="696384f4-006c-4935-b233-b24c7b8a4307" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="SOM" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="8465dd09-4b6c-4e67-adb9-4764509a9e62" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="696384f4-006c-4935-b233-b24c7b8a4307" ActivityName="Activity 1" Guid="a93bf4f7-9e10-4727-8d9e-a6d128254aff" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="SOM" Guid="5cf420b3-31d7-45ea-9054-30f1031027d6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
