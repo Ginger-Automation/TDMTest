@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="82" LastUpdateBy="MENIK" LastUpdate="202008310930" />
-<BusinessFlow Elapsed="11453" Guid="32fc9234-9d10-45cd-a42d-80efaaf268b2" Name="EDI_TB_R4_1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="84" LastUpdateBy="MENIK" LastUpdate="202008311036" />
+<BusinessFlow Elapsed="12785" Guid="32fc9234-9d10-45cd-a42d-80efaaf268b2" Name="EDI_TB_R4_1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="TDM Data Setup" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="SOM">
 <Acts>
@@ -381,7 +381,7 @@
 </Activity>
 <ErrorHandler ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="ErrorHandler1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="774c2a35-830d-4fc7-b813-ac6c4755d64e" HandlerType="Error_Handler" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CPQ">
 <Acts>
-<ActeMail Active="True" Description="Email Action" Guid="05ebc9bf-32f2-4990-bf89-ec5801195aa5" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActeMail Active="True" Description="Send Error Happened E-Mail" Guid="05ebc9bf-32f2-4990-bf89-ec5801195aa5" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="8d660761-e072-4b2f-825e-22f422b17176" Param="Port" ParentGuid="00000000-0000-0000-0000-000000000000" Value="25" />
 <ActInputValue Guid="9d58fefb-c852-49f4-b709-a8c8324e17e7" Param="Host" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ilmail" />
@@ -392,10 +392,10 @@
 <ActInputValue Guid="810f6908-98c1-4bf9-aa20-6e907d853934" Param="MailFrom" ParentGuid="00000000-0000-0000-0000-000000000000" Value="menik@amdocs.com" />
 <ActInputValue Guid="2f0855ac-9545-49c5-9192-4079dd862536" Param="Mailto" ParentGuid="00000000-0000-0000-0000-000000000000" Value="menik@amdocs.com;stefenia@amdocs.com" />
 <ActInputValue Guid="9dbd252b-7819-4f52-82ee-e2db966f189c" Param="Subject" ParentGuid="00000000-0000-0000-0000-000000000000" Value="EDI_TB_R4_1 Execution- Failure Happened" />
-<ActInputValue Guid="9d9ed9fe-c760-47ea-b4cd-331033a4c36b" Param="Body" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Error happened!!&lt;/br&gt;&#xD;&#xA;Execution will be on hold for 5 minutes to allow doing environment changes to recover the execution." />
+<ActInputValue Guid="9d9ed9fe-c760-47ea-b4cd-331033a4c36b" Param="Body" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Error happened!!&#xD;&#xA;&lt;/br&gt;&lt;/br&gt;&#xD;&#xA;Execution will be on hold for 5 minutes to allow doing environment changes to recover the execution.&#xD;&#xA;&lt;/br&gt;&lt;/br&gt;&#xD;&#xA;Auto Fixed Configred To: {Var Name=DoAutoFailureFix}&#xD;&#xA;" />
 </InputValues>
 </ActeMail>
-<ActDummy Active="True" Description="Wait for 5 minutes" Guid="c080f2d2-ace8-4a16-b683-78ff21aa64ac" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="300" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Wait for 5 minutes" Guid="c080f2d2-ace8-4a16-b683-78ff21aa64ac" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="5" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="60fc365b-3cb6-457f-a190-b61b7640d24c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
