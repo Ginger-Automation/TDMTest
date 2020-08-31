@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="84" LastUpdateBy="MENIK" LastUpdate="202008311036" />
+<GingerRepositoryItem><Header ItemGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="85" LastUpdateBy="MENIK" LastUpdate="202008311041" />
 <BusinessFlow Elapsed="12785" Guid="32fc9234-9d10-45cd-a42d-80efaaf268b2" Name="EDI_TB_R4_1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="TDM Data Setup" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="SOM">
@@ -395,7 +395,7 @@
 <ActInputValue Guid="9d9ed9fe-c760-47ea-b4cd-331033a4c36b" Param="Body" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Error happened!!&#xD;&#xA;&lt;/br&gt;&lt;/br&gt;&#xD;&#xA;Execution will be on hold for 5 minutes to allow doing environment changes to recover the execution.&#xD;&#xA;&lt;/br&gt;&lt;/br&gt;&#xD;&#xA;Auto Fixed Configred To: {Var Name=DoAutoFailureFix}&#xD;&#xA;" />
 </InputValues>
 </ActeMail>
-<ActDummy Active="True" Description="Wait for 5 minutes" Guid="c080f2d2-ace8-4a16-b683-78ff21aa64ac" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="5" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Wait for 5 minutes" Guid="c080f2d2-ace8-4a16-b683-78ff21aa64ac" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="300" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="60fc365b-3cb6-457f-a190-b61b7640d24c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
