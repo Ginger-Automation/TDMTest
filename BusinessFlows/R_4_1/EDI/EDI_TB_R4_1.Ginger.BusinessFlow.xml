@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.5.0.0" Version="75" LastUpdateBy="MENIK" LastUpdate="202004062042" />
-<BusinessFlow Elapsed="58443" Guid="32fc9234-9d10-45cd-a42d-80efaaf268b2" Name="EDI_TB_R4_1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="79" LastUpdateBy="MENIK" LastUpdate="202008310846" />
+<BusinessFlow Elapsed="18898" Guid="32fc9234-9d10-45cd-a42d-80efaaf268b2" Name="EDI_TB_R4_1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="TDM Data Setup" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="SOM">
 <Acts>
@@ -286,7 +286,7 @@
 </VariableSelectionList>
 </Variables>
 </Activity>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="Create Lead" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="9bff4443-2186-46d4-824e-68d068e3e4cc" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="Create Lead" AutomationStatus="Development" ErrorHandlerMappingType="SpecificErrorHandlers" Guid="9bff4443-2186-46d4-824e-68d068e3e4cc" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
 <Acts>
 <ActWebAPIModel Active="True" Description="CheckPhoneNumber_PhoneVerifySoap- API Model Execution" Guid="023fb4e8-6680-44ed-8637-4c6de8545e99" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
@@ -326,6 +326,11 @@
 <ActInputValue Guid="8a7b1638-2352-4907-b46f-09dc01b1f146" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="3eb73c9b-1087-43ca-9895-b908b5d8d93c" />
 </InputValues>
 </ActWebAPIModel>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="e2097dcb-2d01-4dd6-8f90-05cb80351bcf" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="ReturnedCounteryValidation" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="ac6d049a-a3bf-42c9-9b72-703b750defe9" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="aaa" />
+</InputValues>
+</ActSetVariableValue>
 <ActWebAPIModel Active="True" Description="CheckPhoneNumber_PhoneVerifySoap12- API Model Execution" Guid="908a92f7-5daa-46f8-9c9d-cc23d7ca1abb" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
 <EnhancedActInputValue Guid="f4980852-86b1-447f-8844-36628918d359" Param="{PHONENUMBER}" ParamGuid="f4e481b2-c6fb-43c5-a70d-62c80cf28b5b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="7575449510" />
@@ -344,6 +349,10 @@
 <ActInputValue Guid="fe727653-ce9c-40eb-9bc1-b305404997c1" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="c2355fce-ac7b-4e06-9cf7-da9a870a97e0" />
 <ActInputValue Guid="c4cb7c85-69d6-4c12-b14f-c60aa4b675fd" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="c2355fce-ac7b-4e06-9cf7-da9a870a97e0" />
 </InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="7465e0a1-73ba-4de6-ab56-db1d64bb916a" mExpected="{Var Name=ReturnedCounteryValidation}" Operator="Equals" Param="Country" ParentGuid="00000000-0000-0000-0000-000000000000" Path="//*[local-name()='Envelope']/Body[1]/CheckPhoneNumberResponse[1]/CheckPhoneNumberResult[1]/Country[1]" StoreTo="None" />
+</ReturnValues>
 </ActWebAPIModel>
 <ActWebAPIModel Active="True" Description="CheckPhoneNumbers_PhoneVerifySoap12- API Model Execution" Guid="a692a4a2-56c4-423a-bbd8-328c07afe5fe" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
@@ -365,7 +374,39 @@
 </InputValues>
 </ActWebAPIModel>
 </Acts>
+
+<MappedErrorHandlers>
+<System.Guid>774c2a35-830d-4fc7-b813-ac6c4755d64e</System.Guid>
+</MappedErrorHandlers>
 </Activity>
+<ErrorHandler ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="ErrorHandler1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="774c2a35-830d-4fc7-b813-ac6c4755d64e" HandlerType="Error_Handler" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CPQ">
+<Acts>
+<ActeMail Active="True" Description="Email Action" Guid="05ebc9bf-32f2-4990-bf89-ec5801195aa5" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="8d660761-e072-4b2f-825e-22f422b17176" Param="Port" ParentGuid="00000000-0000-0000-0000-000000000000" Value="25" />
+<ActInputValue Guid="9d58fefb-c852-49f4-b709-a8c8324e17e7" Param="Host" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ilmail" />
+<ActInputValue Guid="18796d0b-4810-424e-b64a-0fc670691d5d" Param="EnableSSL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<ActInputValue Guid="3e4c2bb1-06a0-4acd-9f91-d7ad9389da49" Param="ConfigureCredential" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+<ActInputValue Guid="577fa326-6370-422f-92f5-0fd2c4401cbf" Param="MailOption" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SMTP" />
+<ActInputValue Guid="bafa8eda-6726-4799-8633-86f3ce42cd52" Param="MailFromDisplayName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="_Amdocs Ginger Automation" />
+<ActInputValue Guid="810f6908-98c1-4bf9-aa20-6e907d853934" Param="MailFrom" ParentGuid="00000000-0000-0000-0000-000000000000" Value="menik@amdocs.com" />
+<ActInputValue Guid="2f0855ac-9545-49c5-9192-4079dd862536" Param="Mailto" ParentGuid="00000000-0000-0000-0000-000000000000" Value="menik@amdocs.com;stefenia@amdocs.com" />
+<ActInputValue Guid="9dbd252b-7819-4f52-82ee-e2db966f189c" Param="Subject" ParentGuid="00000000-0000-0000-0000-000000000000" Value="EDI_TB_R4_1 Execution- Failure Happened" />
+<ActInputValue Guid="9d9ed9fe-c760-47ea-b4cd-331033a4c36b" Param="Body" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Error happened!!&lt;/br&gt;&#xD;&#xA;Execution will be on hold for 5 minutes to allow doing environment changes to recover the execution." />
+</InputValues>
+</ActeMail>
+<ActDummy Active="True" Description="Wait for 5 minutes" Guid="c080f2d2-ace8-4a16-b683-78ff21aa64ac" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="300" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="60fc365b-3cb6-457f-a190-b61b7640d24c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+<ActSetVariableValue Active="True" Description="Simulate Env Fix" Guid="2d6d1537-9c89-4b21-8cec-beac2405dd93" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="ReturnedCounteryValidation" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="b4333b79-f85b-4616-b17d-a4e42e5fb232" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="United States" />
+</InputValues>
+</ActSetVariableValue>
+</Acts>
+</ErrorHandler>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Customer &amp; Proposal" ActivityName="Create Customer &amp; Proposal" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="11d15a8e-c160-4e96-9657-89b773c38b64" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="43%" Publish="True" TargetApplication="SOM">
 <Acts>
 <ActBrowserElement Description="Browser Action" Guid="1d2d6e4d-6e2a-4bf4-b830-c879d2eec1f1" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
@@ -477,120 +518,122 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="0b117905-cf83-42dd-b65a-6b804bb53ad0" Name="Create Lead" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ActivityName="TDM Data Setup" Guid="dabf6b5b-9c73-4530-a317-5561785af8a9" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9bff4443-2186-46d4-824e-68d068e3e4cc" ActivityName="Create Lead" Guid="59991b98-9729-4116-8039-ffe72f4adb08" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ActivityName="TDM Data Setup" Guid="65a93c49-b148-4348-b893-24b97caaaadc" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9bff4443-2186-46d4-824e-68d068e3e4cc" ActivityName="Create Lead" Guid="76c9090b-cbb4-4ce0-ba83-72d5599a19a7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="774c2a35-830d-4fc7-b813-ac6c4755d64e" ActivityName="ErrorHandler1" Guid="524c9033-d073-40b4-9dd0-4a1bbdacb900" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="ed709c17-e025-4219-b136-524a07fd09ab" Name="Create Customer &amp; Proposal" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="11d15a8e-c160-4e96-9657-89b773c38b64" ActivityName="Create Customer &amp; Proposal" Guid="631e869a-85c6-401e-aafa-6c45e057a39d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="11d15a8e-c160-4e96-9657-89b773c38b64" ActivityName="Create Customer &amp; Proposal" Guid="8ecf38c4-81fb-47cb-86df-291ef27ddc38" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="6c370c4e-318d-4f89-bb7d-78786b87c8ca" Name="Create Site_Access &amp; Assign" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="85873023-d7bb-485b-bada-3ebcaa6db7fb" ActivityName="Create Site_Access &amp; Assign" Guid="f5583965-44ff-41e8-b9c8-16557494a34d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="85873023-d7bb-485b-bada-3ebcaa6db7fb" ActivityName="Create Site_Access &amp; Assign" Guid="28c87a5e-d2ae-439d-acce-e820f06b36ca" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="373a0f08-0550-49e0-b61a-ec1bb6ea30e0" Name="ODO-Availability Check" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="97ec9319-9b26-44ad-8ffc-675089b914b4" ActivityName="ODO-Availability Check" Guid="8d5fcf5f-e3fe-4c2f-a7b9-239582eec0ec" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="97ec9319-9b26-44ad-8ffc-675089b914b4" ActivityName="ODO-Availability Check" Guid="ce661e17-be52-4de9-bfb7-5dcc9a112e96" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="edd041af-e62b-4d9c-ad0d-2a7c034a3180" Name="Check Vendor" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cd7a0e0c-f204-4174-8503-585f776a2b5f" ActivityName="Check Vendor" Guid="92cd5c0a-1f79-4b14-87d2-0bd9d5a5b27c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cd7a0e0c-f204-4174-8503-585f776a2b5f" ActivityName="Check Vendor" Guid="9df4baa8-cc51-4b63-9c60-b874b93dc9ba" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="411a7d9e-08c0-4b81-b64a-cb99a41115bd" Name="Site Servey" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5f2da6d5-1373-4ee2-b8b8-0a111b69c81b" ActivityName="Site Servey" Guid="abf7a66e-e2c3-4493-be63-2deba9e84ada" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5f2da6d5-1373-4ee2-b8b8-0a111b69c81b" ActivityName="Site Servey" Guid="1e0cf1b1-a22a-46f3-ac1e-27ca8c75fee0" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="8d447fff-f920-4fab-b55d-08dcdfb19444" Name="NPC Configuration" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b97fc973-5a8f-43e0-a3fa-addc4a3c8933" ActivityName="NPC Configuration" Guid="d5fe7012-2711-4410-91cd-0fff662ee22c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b97fc973-5a8f-43e0-a3fa-addc4a3c8933" ActivityName="NPC Configuration" Guid="8012b692-a73e-4d28-9af1-b1783bf09e1f" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="f9e77139-11de-46b7-a764-f9013de7edd2" Name="Proposal Validation &amp; IRR Calculation" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5305877b-9c91-45f9-b1ab-fa8d12c16ac4" ActivityName="Proposal Validation &amp; IRR Calculation" Guid="b2f11f84-20d3-4b97-8ca8-2cf7ae3db20b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5305877b-9c91-45f9-b1ab-fa8d12c16ac4" ActivityName="Proposal Validation &amp; IRR Calculation" Guid="5cec87ea-d747-4463-80e4-cc635fea1285" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="06205f78-4fcd-4f89-90e5-1479cef5bed6" Name="ODO Approval" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="031b83f3-1a96-477b-872e-3a568f1902af" ActivityName="ODO Approval" Guid="67f62413-1fef-41c7-a051-b1232d0b27aa" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="031b83f3-1a96-477b-872e-3a568f1902af" ActivityName="ODO Approval" Guid="d0b76993-0b4a-4771-89fe-835387217922" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="37f8a6ef-4aad-4400-bc9a-b9738486a933" Name="Contract Generation" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d7e6a08a-f1cd-4789-958d-3ec5be48e114" ActivityName="Contract Generation" Guid="74738f14-07bb-498b-a7ee-57d38f50f447" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d7e6a08a-f1cd-4789-958d-3ec5be48e114" ActivityName="Contract Generation" Guid="b2d58985-157b-4884-80ac-99ae67c73012" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="b47dd275-df03-496b-ba3e-c5436bedb72a" Name="Create &amp; Assign BA" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d728b152-7fdc-4ebf-a2d2-9dd8d66fe429" ActivityName="Create &amp; Assign BA" Guid="a281e1de-38df-45fd-890c-6f1f79e20ae9" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d728b152-7fdc-4ebf-a2d2-9dd8d66fe429" ActivityName="Create &amp; Assign BA" Guid="70337544-b893-4d2b-bffe-f6ddef0b8ba3" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="ccb0828d-e880-4231-a191-ef2c323d3e4e" Name="ODO Validation" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="233f05af-d503-417c-8ec6-bbe9dd016728" ActivityName="ODO Validation" Guid="45d5aa43-17f0-4d01-9a79-50942901bea0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="233f05af-d503-417c-8ec6-bbe9dd016728" ActivityName="ODO Validation" Guid="f9945702-bac1-4b75-993b-e4fa2d6e2243" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="ecaf4561-01dc-4703-93b4-9fb302694efb" Name="ODO-Agreement" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c7f404b9-3ba5-463b-aeb7-9b554bbcaab4" ActivityName="ODO-Agreement" Guid="7a701eb1-13a6-4ecd-9521-f0202b06bb66" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c7f404b9-3ba5-463b-aeb7-9b554bbcaab4" ActivityName="ODO-Agreement" Guid="b40ae162-017b-4dde-9413-0a9ca503b1b7" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="4f2c140c-9f0c-4335-ba3b-871c9b16c47e" Name="ODO-ROE" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a8d5721c-ff58-4487-91ca-cc16be53944d" ActivityName="ODO-ROE" Guid="490de5e9-2fd3-4520-a757-ac0eaf666e72" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a8d5721c-ff58-4487-91ca-cc16be53944d" ActivityName="ODO-ROE" Guid="ff20a240-839a-457d-a842-0fc248988f94" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="c73775fc-50f3-4b57-b040-666e748ff549" Name="ODO-Site Access" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cb2b6174-f2ac-4ef2-8ad0-3b69132bde7c" ActivityName="ODO-Site Access" Guid="b190b920-5e5b-44a0-b40a-7e088dbff724" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cb2b6174-f2ac-4ef2-8ad0-3b69132bde7c" ActivityName="ODO-Site Access" Guid="1535ffaf-93a5-4ea3-b62b-9febcec5d99a" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="7ad7e88e-0d43-469e-9efb-0de35e04efac" Name="ODO-Initial/Update Design" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="529b30ba-78b2-4b3d-af4e-2cf548b98b59" ActivityName="ODO-Initial/Update Design" Guid="1cfb26e2-ff2c-4662-bee5-c2137f942132" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="529b30ba-78b2-4b3d-af4e-2cf548b98b59" ActivityName="ODO-Initial/Update Design" Guid="6f600ab3-5b22-4138-b25a-f1ff8a5eea83" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="41a84bca-83d3-4ab9-9b61-fd2ec47022b6" Name="ODO-Asset Management" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7b675e15-7ce8-4066-9f41-725904580f72" ActivityName="ODO-Asset Management" Guid="69703c16-869e-4319-9d04-d91f409e53c4" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7b675e15-7ce8-4066-9f41-725904580f72" ActivityName="ODO-Asset Management" Guid="6acee357-619b-42de-ad09-d3ca0f63645d" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="7c2354db-f3f4-4e1f-bd7f-8fffe7c934d1" Name="ODO-Provisioning" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a766070a-0b3b-4645-a883-15014991c38f" ActivityName="ODO-Provisioning" Guid="a2bfcb5f-69c0-481d-8ef4-90e248935feb" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a766070a-0b3b-4645-a883-15014991c38f" ActivityName="ODO-Provisioning" Guid="0fbe631e-c8dc-4b3b-92a1-11ba699f68d5" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="538c78a2-ed6d-4a2b-b3f0-948ddb7ebfa1" Name="ODO-Solution Within Site Part1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c2110638-6b21-4ad1-8d6d-c07c8c5009d8" ActivityName="ODO-Solution Within Site Part1" Guid="74bb59a0-2c42-485f-a7b2-ab8a6d3e69b5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c2110638-6b21-4ad1-8d6d-c07c8c5009d8" ActivityName="ODO-Solution Within Site Part1" Guid="4b917749-91dd-4d31-81c2-c9efab42f9b9" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="b97aaa45-2223-496c-8a4e-5e70cada3b60" Name="ODO-Schedule Technician" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0a0ce674-5834-44f5-a9c8-57689d82baae" ActivityName="ODO-Schedule Technician" Guid="24a787c1-0f55-4fdf-8a88-23a2f1dfab5d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0a0ce674-5834-44f5-a9c8-57689d82baae" ActivityName="ODO-Schedule Technician" Guid="96aa0817-56a2-4e5c-b6e6-e97e420badc8" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="a172ae4d-75a4-4062-a33c-8313a13a3eba" Name="ODO-Solution Within Site Part2" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="31f895aa-611a-4a89-8a2e-3a2d365ada10" ActivityName="ODO-Solution Within Site Part2" Guid="b04a85da-5c74-4f3a-a34f-b4d1ee079c14" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="31f895aa-611a-4a89-8a2e-3a2d365ada10" ActivityName="ODO-Solution Within Site Part2" Guid="b88d0587-0a45-4e63-877d-847b5fedfef4" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="0b3639bd-6bd5-404d-a6a0-da16a978707c" Name="ODO-Solution" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesGroups>
 
 <TargetApplications>
-<TargetApplication AppName="SOM" Guid="20862ef2-fb43-4c31-9ad4-85c9f613f013" LastExecutingAgentName="IE" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<TargetApplication AppName="CPQ" Guid="961ffb9e-1a6a-4540-8464-5df45fc4dd0b" LastExecutingAgentName="WebserviceAgent1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<TargetApplication AppName="SOM" Guid="20862ef2-fb43-4c31-9ad4-85c9f613f013" LastExecutingAgentName="Chrome" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<TargetApplication AppName="CPQ" Guid="961ffb9e-1a6a-4540-8464-5df45fc4dd0b" LastExecutingAgentName="APIAgent1" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </TargetApplications>
 
 <Variables>
 <VariableString Guid="56aa48f2-8d32-46a1-80d0-25d170e72fe6" InitialStringValue="700957104" MappedOutputType="None" Name="BP_CustomerID" ParentGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ParentName="EDI_TB_R4_1" ParentType="Sub Business Process" Publish="True" SetAsInputValue="False" />
+<VariableString Guid="45f17437-0e08-43fd-8996-6b9329525b22" InitialStringValue="aaa" MappedOutputType="None" Name="ReturnedCounteryValidation" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="False" SetAsOutputValue="False" />
 <VariableString Guid="1213969e-8f86-4a05-9c4f-7b5a9473cc71" InitialStringValue="IFrameworkAgreement_14233736" MappedOutputType="None" Name="BP_FrameworkAgreementID" ParentGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ParentName="EDI_TB_R4_1" ParentType="Sub Business Process" Publish="True" SetAsInputValue="False" />
 <VariableString Guid="815a2efd-45cb-436d-a045-170935c02ab6" InitialStringValue="Jhon Smith" MappedOutputType="None" Name="BP_CustomerName" ParentGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ParentName="EDI_TB_R4_1" ParentType="Sub Business Process" Publish="True" SetAsInputValue="False" />
 </Variables>
