@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="79" LastUpdateBy="MENIK" LastUpdate="202008310846" />
-<BusinessFlow Elapsed="18898" Guid="32fc9234-9d10-45cd-a42d-80efaaf268b2" Name="EDI_TB_R4_1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="81" LastUpdateBy="MENIK" LastUpdate="202008310914" />
+<BusinessFlow Elapsed="11453" Guid="32fc9234-9d10-45cd-a42d-80efaaf268b2" Name="EDI_TB_R4_1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="TDM Data Setup" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="SOM">
 <Acts>
@@ -395,16 +395,30 @@
 <ActInputValue Guid="9d9ed9fe-c760-47ea-b4cd-331033a4c36b" Param="Body" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Error happened!!&lt;/br&gt;&#xD;&#xA;Execution will be on hold for 5 minutes to allow doing environment changes to recover the execution." />
 </InputValues>
 </ActeMail>
-<ActDummy Active="True" Description="Wait for 5 minutes" Guid="c080f2d2-ace8-4a16-b683-78ff21aa64ac" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="300" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Wait for 5 minutes" Guid="c080f2d2-ace8-4a16-b683-78ff21aa64ac" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="5" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="60fc365b-3cb6-457f-a190-b61b7640d24c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActDummy>
+<ActValidation Active="True" Description="Do Auto Fix?" Guid="a8b92916-0c19-4fe8-b0b7-e8e5e1453bda" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToAction" Guid="bf4915ee-bce7-40c0-8039-31e4cc2875f1" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0b36894e-1252-403e-a1d7-9f148e071115#GUID_NAME#Finish" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="80337360-fccb-463b-95f3-663ccb79aebf" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=DoAutoFailureFix}=Yes" />
+</InputValues>
+</ActValidation>
 <ActSetVariableValue Active="True" Description="Simulate Env Fix" Guid="2d6d1537-9c89-4b21-8cec-beac2405dd93" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="ReturnedCounteryValidation" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="b4333b79-f85b-4616-b17d-a4e42e5fb232" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="United States" />
 </InputValues>
 </ActSetVariableValue>
+<ActDummy Active="True" Description="Finish" Guid="0b36894e-1252-403e-a1d7-9f148e071115" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="a1a3182d-a71b-44e3-83ea-15d3f0f2740c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
 </Acts>
 </ErrorHandler>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Customer &amp; Proposal" ActivityName="Create Customer &amp; Proposal" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="11d15a8e-c160-4e96-9657-89b773c38b64" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="43%" Publish="True" TargetApplication="SOM">
@@ -634,6 +648,12 @@
 <Variables>
 <VariableString Guid="56aa48f2-8d32-46a1-80d0-25d170e72fe6" InitialStringValue="700957104" MappedOutputType="None" Name="BP_CustomerID" ParentGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ParentName="EDI_TB_R4_1" ParentType="Sub Business Process" Publish="True" SetAsInputValue="False" />
 <VariableString Guid="45f17437-0e08-43fd-8996-6b9329525b22" InitialStringValue="aaa" MappedOutputType="None" Name="ReturnedCounteryValidation" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="False" SetAsOutputValue="False" />
+<VariableSelectionList Guid="491a6185-320c-4a74-bcdb-f66920c225a3" MappedOutputType="None" Name="DoAutoFailureFix" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" Value="Yes">
+<OptionalValuesList>
+<OptionalValue Guid="60f9a83b-79ef-424c-8ff9-4f9b47c10018" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Yes" />
+<OptionalValue Guid="3d7d59cd-9fb3-4d46-90fb-9b4f81ba28c0" ParentGuid="00000000-0000-0000-0000-000000000000" Value="No" />
+</OptionalValuesList>
+</VariableSelectionList>
 <VariableString Guid="1213969e-8f86-4a05-9c4f-7b5a9473cc71" InitialStringValue="IFrameworkAgreement_14233736" MappedOutputType="None" Name="BP_FrameworkAgreementID" ParentGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ParentName="EDI_TB_R4_1" ParentType="Sub Business Process" Publish="True" SetAsInputValue="False" />
 <VariableString Guid="815a2efd-45cb-436d-a045-170935c02ab6" InitialStringValue="Jhon Smith" MappedOutputType="None" Name="BP_CustomerName" ParentGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ParentName="EDI_TB_R4_1" ParentType="Sub Business Process" Publish="True" SetAsInputValue="False" />
 </Variables>
