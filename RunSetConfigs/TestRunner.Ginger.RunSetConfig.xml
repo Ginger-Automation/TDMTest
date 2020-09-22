@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="8b07c6b1-e4db-44be-ac81-ad288cc1ced1" ItemType="RunSetConfig" CreatedBy="natishak" Created="202009221057" GingerVersion="3.6.0.0" Version="3" LastUpdateBy="natishak" LastUpdate="202009221058" />
+<RunSetConfig Guid="8b07c6b1-e4db-44be-ac81-ad288cc1ced1" Name="TestRunner" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<GingerRunners>
+<GingerRunner Guid="865f42da-7c08-4f7b-82af-4baafeba0c7e" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="5d766d5e-80f3-489f-a1bc-0655acdbc222" AgentName="IE Virtual" AppID="e13f2f07-e69d-4776-9a91-dcc2d67f6165" AppName="SOM" Guid="d76aa115-13a2-49cd-906a-e8a6b88952a0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="5db23a4f-e540-4cc0-8b0c-ed5787aaa9ce" BusinessFlowInstanceGuid="b52fd6ff-ccfd-4334-bda5-c6fe26e4e7d2" BusinessFlowIsActive="True" BusinessFlowName="Test1" Guid="b045ecf2-4e46-46e3-8a35-b82d7517cc84" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+<GingerRunner Guid="80f5276b-89e3-44b6-a0f2-0cf1795753a3" Name="Runner 2" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="92b9f41d-167c-4580-95da-7a95a430a279" AgentName="IE Virtual" AppID="e13f2f07-e69d-4776-9a91-dcc2d67f6165" AppName="SOM" Guid="b2a2a8fa-3a58-4a0f-bcec-4ba49132eeb1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="5db23a4f-e540-4cc0-8b0c-ed5787aaa9ce" BusinessFlowInstanceGuid="00ad9c2e-1f88-4c08-aa22-64fd1a98a06a" BusinessFlowIsActive="True" BusinessFlowName="Test1" Guid="74c81322-7930-45fa-9aca-25bc6661196c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+<GingerRunner Guid="42c1bb36-f3bb-4d91-ac35-8f0f4abcf3b2" Name="Runner 3" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="df8b2369-8f13-468a-a7d4-5718068a7b59" AgentName="IE Virtual" AppID="e13f2f07-e69d-4776-9a91-dcc2d67f6165" AppName="SOM" Guid="ddd76d3f-b1ec-4d43-a22c-14e91e6d1236" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="2735400b-10aa-4140-99b8-766c418f4066" BusinessFlowInstanceGuid="9b2575ed-86f1-44a9-bef9-a2bf19f1e15d" BusinessFlowIsActive="True" BusinessFlowName="Test Flow45555" Guid="d37c65c6-6ef2-4040-82a4-5cfaf3885329" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>
