@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="2ed47b11-f409-4af0-ba7d-3c16220615f1" ItemType="BusinessFlow" CreatedBy="natishak" Created="202009221056" GingerVersion="3.6.0.0" Version="3" LastUpdateBy="natishak" LastUpdate="202009221059" />
+<BusinessFlow Guid="2ed47b11-f409-4af0-ba7d-3c16220615f1" Name="Test1_Copy" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="9f19a8a7-6a59-4211-b79b-8e353117a987" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="SOM">
+<Acts>
+<ActUIElement Active="True" Description="UIElement Action" Guid="c0045fde-e1ab-4ca2-b193-8e6fa36bb35f" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="96219640-4c2e-4c29-8d03-433c00deb8d6" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="bf70e091-80ec-4997-83e6-1771f2b5e280" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="26a3a6bc-5474-4a79-aede-eab43a59e12b" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="241527c9-b8be-449b-85ae-8ff8c0988bd7" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="182be9e0-28b1-4fe6-a1ff-0460e28f43e4" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="d5999f9d-055a-4f58-b890-137c95e6ccd0" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="e8784ee6-0840-4fa2-81b7-f9cf8a86dd62" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="8a02c03d-bb84-401d-905e-f78db8934162" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="ad52ec63-9396-4b97-adbe-9bf96c1bbe9d" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9f19a8a7-6a59-4211-b79b-8e353117a987" ActivityName="Activity 1" Guid="04356820-fbd5-4194-b494-10415c8beedd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="SOM" Guid="cc18178a-3ed7-4c77-a1ad-35803c3239da" LastExecutingAgentName="IE Virtual" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
