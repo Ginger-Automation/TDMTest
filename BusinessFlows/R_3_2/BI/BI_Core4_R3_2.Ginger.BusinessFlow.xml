@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="8d4572b1-0058-4bcd-8009-cf7f7be75d9c" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.5.0.0" Version="40" LastUpdateBy="NATISHAK" LastUpdate="202003110852" />
+<GingerRepositoryItem><Header ItemGuid="8d4572b1-0058-4bcd-8009-cf7f7be75d9c" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="41" LastUpdateBy="natishak" LastUpdate="202011090558" />
 <BusinessFlow Elapsed="6906" Guid="8d4572b1-0058-4bcd-8009-cf7f7be75d9c" Name="BI_Core4_R3_2" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="RandomCalc" ActivityName="Do RandomCalc" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="91ba3dd6-8688-43aa-b2d9-a2da7f9c4ea1" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="SOM">
@@ -145,22 +145,22 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="8568128d-f945-43c0-8292-b8943282a7f6" Name="RandomCalc" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="91ba3dd6-8688-43aa-b2d9-a2da7f9c4ea1" ActivityName="Do RandomCalc" Guid="95514338-4969-48ae-9f0d-53282a4f09a1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="91ba3dd6-8688-43aa-b2d9-a2da7f9c4ea1" ActivityName="Do RandomCalc" Guid="d0d11dd5-8860-4b1a-9aaf-e0541a7b771e" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="0b117905-cf83-42dd-b65a-6b804bb53ad0" Name="Sum" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9bff4443-2186-46d4-824e-68d068e3e4cc" ActivityName="Do Sum" Guid="510c9232-4f02-4df8-8573-8df13f23b8c3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9bff4443-2186-46d4-824e-68d068e3e4cc" ActivityName="Do Sum" Guid="b87591c6-37f8-4c00-b982-b7627711d1a4" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="43608559-06e2-4c4d-a258-80ba55dc4992" Name="Multiply" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cb800179-fa3c-46fa-9c38-4c9c605ab149" ActivityName="Do Multiply" Guid="55f9ae14-8589-46c6-aabf-f3ea078755fd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cb800179-fa3c-46fa-9c38-4c9c605ab149" ActivityName="Do Multiply" Guid="34cbd80c-255d-49ee-8cfa-4ec5e8353491" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="17afb069-a131-4732-b813-d7498ba0b0fe" Name="Divide" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="4d6949ee-bd24-4b97-be01-f6fc686eeba9" ActivityName="Do Divide" Guid="548c29d3-0f69-44bf-b596-f8083f881610" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="4d6949ee-bd24-4b97-be01-f6fc686eeba9" ActivityName="Do Divide" Guid="bb46d2a3-4b7f-4c9d-91f8-e60be92549d9" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

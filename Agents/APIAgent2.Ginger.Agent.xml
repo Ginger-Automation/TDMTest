@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="fe9902bf-3904-4846-8b2a-08a2def02d4b" ItemType="Agent" CreatedBy="MENIK" Created="202004072035" GingerVersion="3.5.0.0" Version="1" LastUpdateBy="MENIK" LastUpdate="202004072035" />
+<GingerRepositoryItem><Header ItemGuid="fe9902bf-3904-4846-8b2a-08a2def02d4b" ItemType="Agent" CreatedBy="MENIK" Created="202004072035" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="natishak" LastUpdate="202011090558" />
 <Agent Active="True" AgentType="Driver" DriverType="WebServices" Guid="fe9902bf-3904-4846-8b2a-08a2def02d4b" Name="APIAgent2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices">
 <DriverConfiguration>
 <DriverConfigParam Description="Show Driver Window On Launch" Guid="aedb0253-f74a-4318-942b-925621213f3c" Parameter="ShowDriverWindowOnLaunch" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="356dc390-c1d3-45b5-b934-38b6552bc9eb" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152118" GingerVersion="3.5.0.0" Version="11" LastUpdateBy="STEFENIA" LastUpdate="202001260919" />
+<GingerRepositoryItem><Header ItemGuid="356dc390-c1d3-45b5-b934-38b6552bc9eb" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152118" GingerVersion="3.6.0.0" Version="12" LastUpdateBy="natishak" LastUpdate="202011090558" />
 <RunSetConfig Guid="356dc390-c1d3-45b5-b934-38b6552bc9eb" Name="BP_EPL_TB_R4_1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="1bc51ea7-e213-475f-9568-46c2df574e3c" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="4d30d140-a49e-4ed6-a63c-2d177768de92" ItemType="Agent" CreatedBy="MENIK" Created="202003151940" GingerVersion="3.5.0.0" Version="1" LastUpdateBy="MENIK" LastUpdate="202003151940" />
+<GingerRepositoryItem><Header ItemGuid="4d30d140-a49e-4ed6-a63c-2d177768de92" ItemType="Agent" CreatedBy="MENIK" Created="202003151940" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="natishak" LastUpdate="202011090558" />
 <Agent Active="True" AgentType="Driver" DriverType="SeleniumIE" Guid="4d30d140-a49e-4ed6-a63c-2d177768de92" Name="IE" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web">
 <DriverConfiguration>
 <DriverConfigParam Description="Proxy Server:Port" Guid="ecdf56bc-8062-4ba6-8678-6bb6e517a6c4" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
