@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="c1bbc81f-0043-4a4e-82bf-1c7259e4dea9" ItemType="ProjEnvironment" CreatedBy="MENIK" Created="202010270937" GingerVersion="3.6.0.0" Version="3" LastUpdateBy="MENIK" LastUpdate="202010270938" />
+<GingerRepositoryItem><Header ItemGuid="c1bbc81f-0043-4a4e-82bf-1c7259e4dea9" ItemType="ProjEnvironment" CreatedBy="MENIK" Created="202010270937" GingerVersion="3.6.0.0" Version="4" LastUpdateBy="MENIK" LastUpdate="202101210929" />
 <ProjEnvironment Guid="c1bbc81f-0043-4a4e-82bf-1c7259e4dea9" Name="PLAB1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <Applications>
 <EnvApplication Active="True" Guid="97b0a906-3f90-4e06-b011-c496d9113b0a" Name="SOM" ParentGuid="00000000-0000-0000-0000-000000000000">
 <Dbs>
-<Database ConnectionString="User ID=postgres;Password=postgres;Server=ilrnaginger01;Port=5432;Database=ExecutionHandlerDB_Prod_INC;" DBType="PostgreSQL" Guid="4d4d9861-57b4-4adc-a2e2-969659118d45" KeepConnectionOpen="False" Name="TDM_DB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Database DBType="PostgreSQL" Guid="4d4d9861-57b4-4adc-a2e2-969659118d45" KeepConnectionOpen="False" Name="TDM_DB" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </Dbs>
 </EnvApplication>
 </Applications>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="4" LastUpdateBy="MENIK" LastUpdate="202007231552" />
+<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="5" LastUpdateBy="MENIK" LastUpdate="202101210932" />
 <BusinessFlow Guid="378221e0-ec95-4301-92f7-cf30b2d7f164" Name="Generic Validation 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="275dc808-8332-4ff1-81f5-56d1f485ae65" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CPQ">
 <Acts>
-<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Validate Customer status is valid" Guid="d2fb073d-4355-49d0-9c10-059cb014ab20" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Validate Customer status is valid" Guid="d2fb073d-4355-49d0-9c10-059cb014ab20" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; Limit 1" />
 <ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
@@ -16,7 +16,7 @@
 <ActReturnValue Active="True" Guid="0e2b596d-f1aa-4757-a14d-0ca7ecc3f4db" mExpected="http" Operator="Contains" Param="Address" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
 </ReturnValues>
 </ActDBValidation>
-<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 1" Guid="43329432-fb10-4d40-94d1-9755d9836313" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 1" Guid="43329432-fb10-4d40-94d1-9755d9836313" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; Limit 1" />
 <ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
@@ -28,7 +28,7 @@
 <ActReturnValue Active="True" Guid="0e2b596d-f1aa-4757-a14d-0ca7ecc3f4db" mExpected="http" Operator="Contains" Param="Address" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
 </ReturnValues>
 </ActDBValidation>
-<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 2" Guid="27c21a13-82d7-4973-9b1e-3a4e35df0b3f" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 2" Guid="27c21a13-82d7-4973-9b1e-3a4e35df0b3f" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; Limit 1" />
 <ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
@@ -40,7 +40,7 @@
 <ActReturnValue Active="True" Guid="0e2b596d-f1aa-4757-a14d-0ca7ecc3f4db" mExpected="http" Operator="Contains" Param="Address" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
 </ReturnValues>
 </ActDBValidation>
-<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 3" Guid="c5a06443-c6a8-4162-aa5b-0a1c827eed0e" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Generic Validation 3" Guid="c5a06443-c6a8-4162-aa5b-0a1c827eed0e" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="0b5ff8b2-58b7-400f-b59e-a17d1def273e" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from public.&quot;Agents&quot; Limit 1" />
 <ActInputValue Guid="f4b77deb-56be-4c15-a20a-8404b0a6d64d" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
@@ -57,7 +57,7 @@
 <ActInputValue Guid="f906a3c1-f2e1-47a9-94eb-19c71bdc39e7" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActSetVariableValue>
-<ActValidation Active="True" Description="Validate Customer Number" Guid="70efde01-83fe-4765-a7df-dab6956a1af5" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActValidation Active="True" Description="Validate Customer Number" Guid="70efde01-83fe-4765-a7df-dab6956a1af5" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="0910fb3d-b752-45f6-979b-1d0d1d87d8f6" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=RandomNum}&gt;25" />
 </InputValues>
@@ -73,7 +73,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="19bdfc94-ba95-4683-ac2b-7a430a93fdb6" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="275dc808-8332-4ff1-81f5-56d1f485ae65" ActivityName="Activity 1" Guid="5d123390-04af-4dc2-b3c9-4685dc5b9323" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="275dc808-8332-4ff1-81f5-56d1f485ae65" ActivityName="Activity 1" Guid="1acf516e-2ae2-4a97-8303-048695317e3b" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
