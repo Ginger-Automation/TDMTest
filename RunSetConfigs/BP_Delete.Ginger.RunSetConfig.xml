@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="26daabd4-fb49-4685-92f2-f80c5eb8a09e" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="113" LastUpdateBy="MENIK" LastUpdate="202009131945" />
-<RunSetConfig Guid="26daabd4-fb49-4685-92f2-f80c5eb8a09e" Name="BP_Delete" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<GingerRepositoryItem><Header ItemGuid="26daabd4-fb49-4685-92f2-f80c5eb8a09e" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="114" LastUpdateBy="NATISHAK" LastUpdate="202103251015" />
+<RunSetConfig Guid="26daabd4-fb49-4685-92f2-f80c5eb8a09e" Name="Delete" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="d18810bf-74ee-4d1b-aabd-bb8e764c4da6" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="TTR_445" UseSpecificEnvironment="True">
 <ApplicationAgents>
@@ -8,7 +8,7 @@
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="6297cd8c-5d65-4c7e-b0ca-6de3201abb65" BusinessFlowInstanceGuid="4c7321db-9d50-4f14-a751-f7ff391f7607" BusinessFlowIsActive="True" BusinessFlowName="Delete" Guid="dca58eb8-da93-47ad-84d3-60af350741d1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="6297cd8c-5d65-4c7e-b0ca-6de3201abb65" BusinessFlowInstanceGuid="4c7321db-9d50-4f14-a751-f7ff391f7607" BusinessFlowIsActive="True" BusinessFlowName="Delete" Guid="d6f8aef7-1dd1-48b0-97f6-52af2b39bb85" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
