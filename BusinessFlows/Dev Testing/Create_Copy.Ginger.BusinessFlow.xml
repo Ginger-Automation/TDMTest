@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="7174b436-6224-4668-a5bb-fb7097e56ec5" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="84" LastUpdateBy="NATISHAK" LastUpdate="202103251226" />
-<BusinessFlow Elapsed="12362" Guid="7174b436-6224-4668-a5bb-fb7097e56ec5" Name="Create" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="a39ec0c2-f8d9-4cba-9018-dabd4f2cfcba" ItemType="BusinessFlow" CreatedBy="NATISHAK" Created="202103251223" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="NATISHAK" LastUpdate="202103251223" />
+<BusinessFlow Elapsed="12362" Guid="a39ec0c2-f8d9-4cba-9018-dabd4f2cfcba" Name="Create_Copy" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="TDM Data Setup" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="SOM">
 <Acts>
@@ -33,21 +33,21 @@
 <OptionalValue Guid="819e6c32-bdb2-4199-b20d-923e59294eaf" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer_IP_Block" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Guid="6debcd4d-6511-4b96-ade5-5d17856e436f" MappedOutputType="None" Name="Static IP Version Type2" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Guid="6debcd4d-6511-4b96-ade5-5d17856e436f" MappedOutputType="None" Name="Static IP Version Type2" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="26c5bf64-ebf3-4c64-8203-36948d9f7ac7" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 <OptionalValue Guid="d46edaa1-2f5e-4e6c-98f4-e7c9104a3093" ParentGuid="00000000-0000-0000-0000-000000000000" Value="P2P" />
 <OptionalValue Guid="8593023d-037c-4275-9b25-5ad05d5dd733" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer_IP_Block" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Guid="2e0227f9-52f4-43fe-a663-7eb96e01752f" MappedOutputType="None" Name="Static IP Version Type3" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Guid="2e0227f9-52f4-43fe-a663-7eb96e01752f" MappedOutputType="None" Name="Static IP Version Type3" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="4be51dae-95a5-4e44-9835-17e280951f66" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 <OptionalValue Guid="58ae1d7c-af67-4aa2-867f-f3f746283f16" ParentGuid="00000000-0000-0000-0000-000000000000" Value="P2P" />
 <OptionalValue Guid="52961354-0680-48e8-b13a-fde0966ac209" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer_IP_Block" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Guid="21574efd-462d-4bd0-a5f9-c3b8218b484e" MappedOutputType="None" Name="Static IP Version Type4" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Guid="21574efd-462d-4bd0-a5f9-c3b8218b484e" MappedOutputType="None" Name="Static IP Version Type4" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="a87a9d35-447e-4dad-93fa-a83f38fa663e" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 <OptionalValue Guid="55a149eb-ebb5-4628-9fe2-4e28252401ef" ParentGuid="00000000-0000-0000-0000-000000000000" Value="P2P" />
@@ -60,21 +60,21 @@
 <OptionalValue Guid="2016d161-bd06-475b-a883-da18b9bf2bf6" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Guid="8d6f7e96-efd5-4d06-b7a0-be685e9f40c4" MappedOutputType="None" Name="Static IP Provider2" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Guid="8d6f7e96-efd5-4d06-b7a0-be685e9f40c4" MappedOutputType="None" Name="Static IP Provider2" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="1bd5121e-205e-4817-88dc-ae915ec5a179" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Comcast" />
 <OptionalValue Guid="a34fcf81-d27c-4e04-83ff-519a4a462f10" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer" />
 <OptionalValue Guid="f20a125d-86b8-4637-90f9-600be3dfd7eb" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Guid="4c08f5a4-397b-4e6f-bfd8-a564cdb51e52" MappedOutputType="None" Name="Static IP Provider3" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Guid="4c08f5a4-397b-4e6f-bfd8-a564cdb51e52" MappedOutputType="None" Name="Static IP Provider3" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="1c90771b-da5f-4146-b022-8f6760525575" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Comcast" />
 <OptionalValue Guid="fd8b4874-f9d6-4420-8d70-21e4db4f2058" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer" />
 <OptionalValue Guid="17e55623-51e5-4c8c-87a9-a9d60f56e6e5" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Guid="45c49d24-863a-4da8-9e9a-e3ef3b2b2a9f" MappedOutputType="None" Name="Static IP Provider4" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Guid="45c49d24-863a-4da8-9e9a-e3ef3b2b2a9f" MappedOutputType="None" Name="Static IP Provider4" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="8f4e2a4d-98b6-4f15-b404-3f909a3d563e" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Comcast" />
 <OptionalValue Guid="148f74e1-03b0-4dfb-b97a-6380fc2cfabc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer" />
@@ -87,21 +87,21 @@
 <OptionalValue Guid="23e43f8b-a805-468f-9e34-e549da0fe1e8" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IPv6" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Calendar.xsl/WUAT_BGP/EVCEndpoint_IPVersion_2&#xD;&#xA;" Guid="ad136e08-4f6b-4c06-98d9-fce886f2a7ec" MappedOutputType="None" Name="Static IP Version2" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Description="Calendar.xsl/WUAT_BGP/EVCEndpoint_IPVersion_2&#xD;&#xA;" Guid="ad136e08-4f6b-4c06-98d9-fce886f2a7ec" MappedOutputType="None" Name="Static IP Version2" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="e45872d8-9c55-4733-ad42-6f9efc26357e" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 <OptionalValue Guid="9075d4e9-a43b-4fcf-85fd-33c3fb3e61b4" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IPv4" />
 <OptionalValue Guid="8978ad10-71b3-49f1-9ab4-5ce24217f822" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IPv6" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Calendar.xsl/WUAT_BGP/EVCEndpoint_IPVersion_3&#xD;&#xA;" Guid="72233c73-e7ac-4c81-a551-e036bd989cf8" MappedOutputType="None" Name="Static IP Version3" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Description="Calendar.xsl/WUAT_BGP/EVCEndpoint_IPVersion_3&#xD;&#xA;" Guid="72233c73-e7ac-4c81-a551-e036bd989cf8" MappedOutputType="None" Name="Static IP Version3" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="cf18d0ec-1e28-49da-bb27-8682326902f9" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IPv4" />
 <OptionalValue Guid="cfb55826-632b-4d0b-ac23-971a4dd4ba44" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IPv6" />
 <OptionalValue Guid="0f014248-6b7e-4dfa-a348-1c75dd362878" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Calendar.xsl/WUAT_BGP/EVCEndpoint_IPVersion_4&#xD;&#xA;" Guid="4fbce3d0-a0ed-4aec-9d00-4d0fde238186" MappedOutputType="None" Name="Static IP Version4" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Description="Calendar.xsl/WUAT_BGP/EVCEndpoint_IPVersion_4&#xD;&#xA;" Guid="4fbce3d0-a0ed-4aec-9d00-4d0fde238186" MappedOutputType="None" Name="Static IP Version4" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="88e4cee7-4066-4315-882f-211714a13827" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IPv4" />
 <OptionalValue Guid="73cd7a7a-6be2-419f-9228-30880c52d63d" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IPv6" />
@@ -132,7 +132,7 @@
 <OptionalValue Guid="8c3ef77a-b91a-4c60-82ef-43fd6163b40b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/48" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Need to use valid combination.&#xD;&#xA;Sample: P2P,Comcast,IPV4&#xD;&#xA;Valid quantity:&#xD;&#xA;/30&#xD;&#xA;/29" Guid="1ac57abb-7f66-439f-9f39-96f6c4d72f6d" MappedOutputType="None" Name="Static IP Quantity2" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Description="Need to use valid combination.&#xD;&#xA;Sample: P2P,Comcast,IPV4&#xD;&#xA;Valid quantity:&#xD;&#xA;/30&#xD;&#xA;/29" Guid="1ac57abb-7f66-439f-9f39-96f6c4d72f6d" MappedOutputType="None" Name="Static IP Quantity2" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="a7e8a588-d4e9-4297-ae06-21ae7de890f2" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/30" />
 <OptionalValue Guid="05863d77-4b54-426d-adb8-6fe4f53a5e73" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/29" />
@@ -157,7 +157,7 @@
 <OptionalValue Guid="f381eb1a-08be-4907-b64f-9e0965e056a9" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Need to use valid combination.&#xD;&#xA;Sample: P2P,Comcast,IPV4&#xD;&#xA;Valid quantity:&#xD;&#xA;/30&#xD;&#xA;/29" Guid="3a93fc94-e0fb-4f7a-8f4d-a931156407fd" MappedOutputType="None" Name="Static IP Quantity3" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Description="Need to use valid combination.&#xD;&#xA;Sample: P2P,Comcast,IPV4&#xD;&#xA;Valid quantity:&#xD;&#xA;/30&#xD;&#xA;/29" Guid="3a93fc94-e0fb-4f7a-8f4d-a931156407fd" MappedOutputType="None" Name="Static IP Quantity3" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="5cca7bfd-e69c-4dc4-9662-f6948ce48152" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/30" />
 <OptionalValue Guid="3501ba81-1252-4f72-b31d-2c90b67c3840" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/29" />
@@ -182,7 +182,7 @@
 <OptionalValue Guid="69606621-25e1-4284-b5b1-262cd0a408c9" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Need to use valid combination.&#xD;&#xA;Sample: P2P,Comcast,IPV4&#xD;&#xA;Valid quantity:&#xD;&#xA;/30&#xD;&#xA;/29" Guid="54784261-1faf-4ba7-8334-b527e56065c7" MappedOutputType="None" Name="Static IP Quantity4" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NA">
+<VariableSelectionList Description="Need to use valid combination.&#xD;&#xA;Sample: P2P,Comcast,IPV4&#xD;&#xA;Valid quantity:&#xD;&#xA;/30&#xD;&#xA;/29" Guid="54784261-1faf-4ba7-8334-b527e56065c7" MappedOutputType="None" Name="Static IP Quantity4" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NA">
 <OptionalValuesList>
 <OptionalValue Guid="30175460-81fa-434a-b527-b5a4b5331676" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/30" />
 <OptionalValue Guid="34027d1c-4dd0-49b7-9d22-dec8f3c4b693" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/29" />
@@ -282,7 +282,7 @@
 <OptionalValue Guid="7cb7a557-a0a4-4a63-8c03-577d38e87b8e" ParentGuid="00000000-0000-0000-0000-000000000000" Value="36" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Execute the Flow until which End-point stop?" Guid="f847c42a-534a-47e5-ad90-707e3c1eaa9c" MappedOutputType="None" Name="Execute Till" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="NB- Entire Flow">
+<VariableSelectionList Description="Execute the Flow until which End-point stop?" Guid="f847c42a-534a-47e5-ad90-707e3c1eaa9c" MappedOutputType="None" Name="Execute Till" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="NB- Entire Flow">
 <OptionalValuesList>
 <OptionalValue Guid="29f9f851-80c4-4902-a70d-a5bae217de0b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Submit To Delivery " />
 <OptionalValue Guid="d9b8512c-d834-4918-a76d-5af8961fefc6" ParentGuid="00000000-0000-0000-0000-000000000000" Value="WFX" />
@@ -477,108 +477,108 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="0b117905-cf83-42dd-b65a-6b804bb53ad0" Name="Create Lead" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ActivityName="TDM Data Setup" Guid="1adff3f6-2f89-4a1c-ac96-f33a6105b7e5" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9bff4443-2186-46d4-824e-68d068e3e4cc" ActivityName="Create Lead" Guid="624c6b62-cf1d-45a2-beeb-320524adf0b4" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ActivityName="TDM Data Setup" Guid="383fe3d8-cdcb-405d-9844-6d54adfe906a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9bff4443-2186-46d4-824e-68d068e3e4cc" ActivityName="Create Lead" Guid="e7fce1fa-0da5-4700-b9f7-d42a826c10af" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="ed709c17-e025-4219-b136-524a07fd09ab" Name="Create Customer &amp; Proposal" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="11d15a8e-c160-4e96-9657-89b773c38b64" ActivityName="Create Customer &amp; Proposal" Guid="904788cd-5f1b-42c8-b472-4022c6f280ad" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="11d15a8e-c160-4e96-9657-89b773c38b64" ActivityName="Create Customer &amp; Proposal" Guid="7aaa54d7-d11f-42d6-a378-ef01cdd0c3f6" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="6c370c4e-318d-4f89-bb7d-78786b87c8ca" Name="Create Site_Access &amp; Assign" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="85873023-d7bb-485b-bada-3ebcaa6db7fb" ActivityName="Create Site_Access &amp; Assign" Guid="46c3f720-6f02-4acb-b49c-fb1c62ad8b38" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="85873023-d7bb-485b-bada-3ebcaa6db7fb" ActivityName="Create Site_Access &amp; Assign" Guid="c8e7cc50-31ec-42bf-92fc-96fad4447c89" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="373a0f08-0550-49e0-b61a-ec1bb6ea30e0" Name="ODO-Availability Check" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="97ec9319-9b26-44ad-8ffc-675089b914b4" ActivityName="ODO-Availability Check" Guid="0118e09f-fae6-450a-a106-da4fa2ac30ff" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="97ec9319-9b26-44ad-8ffc-675089b914b4" ActivityName="ODO-Availability Check" Guid="909b27b3-26ed-4bc8-9ce6-506880f105a0" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="edd041af-e62b-4d9c-ad0d-2a7c034a3180" Name="Check Vendor" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cd7a0e0c-f204-4174-8503-585f776a2b5f" ActivityName="Check Vendor" Guid="210adec3-4a44-4297-9302-67b871bf212c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cd7a0e0c-f204-4174-8503-585f776a2b5f" ActivityName="Check Vendor" Guid="d4fd9e6f-07b5-4273-82ec-352d897f0c83" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="411a7d9e-08c0-4b81-b64a-cb99a41115bd" Name="Site Servey" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5f2da6d5-1373-4ee2-b8b8-0a111b69c81b" ActivityName="Site Servey" Guid="79461270-038d-41c3-a0c9-57ceb74e38ed" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5f2da6d5-1373-4ee2-b8b8-0a111b69c81b" ActivityName="Site Servey" Guid="30565057-1dfe-4473-90b7-c8763c365bef" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="8d447fff-f920-4fab-b55d-08dcdfb19444" Name="NPC Configuration" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b97fc973-5a8f-43e0-a3fa-addc4a3c8933" ActivityName="NPC Configuration" Guid="71c42c82-6ca0-4dd8-8ccb-17e22a039e92" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b97fc973-5a8f-43e0-a3fa-addc4a3c8933" ActivityName="NPC Configuration" Guid="0da48987-5d1b-46cb-9df7-373657fdc0e7" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="f9e77139-11de-46b7-a764-f9013de7edd2" Name="Proposal Validation &amp; IRR Calculation" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5305877b-9c91-45f9-b1ab-fa8d12c16ac4" ActivityName="Proposal Validation &amp; IRR Calculation" Guid="c1f0d2a2-8944-4777-9062-cb90b41c6360" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5305877b-9c91-45f9-b1ab-fa8d12c16ac4" ActivityName="Proposal Validation &amp; IRR Calculation" Guid="179b83c3-dd3a-4331-8886-a4306ccc007c" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="06205f78-4fcd-4f89-90e5-1479cef5bed6" Name="ODO Approval" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="031b83f3-1a96-477b-872e-3a568f1902af" ActivityName="ODO Approval" Guid="3e86fa43-32d0-4817-8218-27ffa2891141" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="031b83f3-1a96-477b-872e-3a568f1902af" ActivityName="ODO Approval" Guid="1c5b0d22-4671-4734-9b25-6b6565d0a9db" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="37f8a6ef-4aad-4400-bc9a-b9738486a933" Name="Contract Generation" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d7e6a08a-f1cd-4789-958d-3ec5be48e114" ActivityName="Contract Generation" Guid="f2f8bc58-0a0f-417a-9bf7-70e8a9c665e4" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d7e6a08a-f1cd-4789-958d-3ec5be48e114" ActivityName="Contract Generation" Guid="8cff16df-bea6-4b2b-9ac1-a31b41e1bdf1" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="b47dd275-df03-496b-ba3e-c5436bedb72a" Name="Create &amp; Assign BA" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d728b152-7fdc-4ebf-a2d2-9dd8d66fe429" ActivityName="Create &amp; Assign BA" Guid="59831246-6801-4800-a909-6150b3a7694f" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d728b152-7fdc-4ebf-a2d2-9dd8d66fe429" ActivityName="Create &amp; Assign BA" Guid="a940c623-96f3-447c-902b-4e5fa8e294a9" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="ccb0828d-e880-4231-a191-ef2c323d3e4e" Name="ODO Validation" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="233f05af-d503-417c-8ec6-bbe9dd016728" ActivityName="ODO Validation" Guid="39e081f4-bc1f-4402-b2a1-ad7aea1c7d16" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="233f05af-d503-417c-8ec6-bbe9dd016728" ActivityName="ODO Validation" Guid="bed5e305-cdc8-4207-87df-7ce95271bf9d" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="ecaf4561-01dc-4703-93b4-9fb302694efb" Name="ODO-Agreement" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c7f404b9-3ba5-463b-aeb7-9b554bbcaab4" ActivityName="ODO-Agreement" Guid="ecaacea0-85fe-4850-b1ae-e3c0c8ba2fdf" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c7f404b9-3ba5-463b-aeb7-9b554bbcaab4" ActivityName="ODO-Agreement" Guid="e736c307-de9b-4766-90e1-2e756eaf075f" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="4f2c140c-9f0c-4335-ba3b-871c9b16c47e" Name="ODO-ROE" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a8d5721c-ff58-4487-91ca-cc16be53944d" ActivityName="ODO-ROE" Guid="1043b5c8-6a76-444e-aece-b1bafd7a1db8" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a8d5721c-ff58-4487-91ca-cc16be53944d" ActivityName="ODO-ROE" Guid="a12fced7-738e-4fb4-a457-6d45801fa214" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="c73775fc-50f3-4b57-b040-666e748ff549" Name="ODO-Site Access" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cb2b6174-f2ac-4ef2-8ad0-3b69132bde7c" ActivityName="ODO-Site Access" Guid="8d38f495-4783-4bf5-8a7a-b0a142573ddd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cb2b6174-f2ac-4ef2-8ad0-3b69132bde7c" ActivityName="ODO-Site Access" Guid="594e9bc3-1145-4956-95d8-468290fa2b86" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="7ad7e88e-0d43-469e-9efb-0de35e04efac" Name="ODO-Initial/Update Design" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="529b30ba-78b2-4b3d-af4e-2cf548b98b59" ActivityName="ODO-Initial/Update Design" Guid="4fe3b97d-127e-4182-8dc5-b288ff6496c2" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="529b30ba-78b2-4b3d-af4e-2cf548b98b59" ActivityName="ODO-Initial/Update Design" Guid="d5ed09bf-e423-4934-9d7b-155437467e6e" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="41a84bca-83d3-4ab9-9b61-fd2ec47022b6" Name="ODO-Asset Management" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7b675e15-7ce8-4066-9f41-725904580f72" ActivityName="ODO-Asset Management" Guid="72382eef-a732-4859-af30-576121db86e4" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7b675e15-7ce8-4066-9f41-725904580f72" ActivityName="ODO-Asset Management" Guid="2439cfc7-0ae3-4f6a-aba2-44fc20f66fd2" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="7c2354db-f3f4-4e1f-bd7f-8fffe7c934d1" Name="ODO-Provisioning" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a766070a-0b3b-4645-a883-15014991c38f" ActivityName="ODO-Provisioning" Guid="5e7bf043-5ad2-4267-8811-dcc2d38f9d97" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a766070a-0b3b-4645-a883-15014991c38f" ActivityName="ODO-Provisioning" Guid="4c23f3c9-7f53-43e8-afe8-586667948026" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="538c78a2-ed6d-4a2b-b3f0-948ddb7ebfa1" Name="ODO-Solution Within Site Part1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c2110638-6b21-4ad1-8d6d-c07c8c5009d8" ActivityName="ODO-Solution Within Site Part1" Guid="11f0d1a1-cdb2-4437-995a-967b08d19cef" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c2110638-6b21-4ad1-8d6d-c07c8c5009d8" ActivityName="ODO-Solution Within Site Part1" Guid="c138bcb1-6e71-4a97-b88e-98b9ea5c37bf" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="b97aaa45-2223-496c-8a4e-5e70cada3b60" Name="ODO-Schedule Technician" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0a0ce674-5834-44f5-a9c8-57689d82baae" ActivityName="ODO-Schedule Technician" Guid="01155f73-c0d0-4479-85d2-8d7c3ebd68df" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0a0ce674-5834-44f5-a9c8-57689d82baae" ActivityName="ODO-Schedule Technician" Guid="2814ecd9-df3b-404c-9193-13f1e5daa468" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="a172ae4d-75a4-4062-a33c-8313a13a3eba" Name="ODO-Solution Within Site Part2" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="31f895aa-611a-4a89-8a2e-3a2d365ada10" ActivityName="ODO-Solution Within Site Part2" Guid="66d0b485-e1b1-4075-9ef0-d4389e7c3857" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="31f895aa-611a-4a89-8a2e-3a2d365ada10" ActivityName="ODO-Solution Within Site Part2" Guid="9084158f-03ba-4922-9f26-1cbce3b57779" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="0b3639bd-6bd5-404d-a6a0-da16a978707c" Name="ODO-Solution" ParentGuid="00000000-0000-0000-0000-000000000000" />
