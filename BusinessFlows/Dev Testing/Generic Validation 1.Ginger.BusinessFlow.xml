@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="8" LastUpdateBy="MENIK" LastUpdate="202101210932" />
+<GingerRepositoryItem><Header ItemGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="9" LastUpdateBy="NATISHAK" LastUpdate="202103250826" />
 <BusinessFlow Elapsed="3510" Guid="4ebf8594-27d8-4b16-a7da-7829079de28e" Name="Generic Validation 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="03ef69aa-cc23-45a9-901f-390a394db740" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="SOM">
@@ -71,7 +71,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="28775346-da5f-43ee-a7c1-673e98201088" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="03ef69aa-cc23-45a9-901f-390a394db740" ActivityName="Activity 1" Guid="eb418eb2-9d78-4dc0-8915-777f5aa123aa" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="03ef69aa-cc23-45a9-901f-390a394db740" ActivityName="Activity 1" Guid="4e5d27ed-4344-4268-b5f9-eb821a00127b" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
@@ -82,11 +82,11 @@
 
 <Variables>
 <VariableString Guid="76704afd-c090-4afb-8a48-d950156f1fe8" MappedOutputType="None" Name="CustomerID" ParentGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ParentName="Generic Validation 1" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
-<VariableSelectionList Guid="8f2f0f8f-b161-422d-adba-8e08dacf2294" MappedOutputType="None" Name="ValidationType" ParentGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ParentName="Generic Validation 1" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" Value="AAA">
+<VariableSelectionList Guid="8f2f0f8f-b161-422d-adba-8e08dacf2294" MappedOutputType="None" Name="ValidationType" ParentGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ParentName="Generic Validation 1" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" Value="Type1">
 <OptionalValuesList>
-<OptionalValue Guid="c051bac9-1217-44a5-af6a-9c69b3d92b0b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AAA" />
-<OptionalValue Guid="afc3894d-73ed-4601-ab25-3c61e80a8ecc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="BBB" />
-<OptionalValue Guid="25ceed3c-1db1-4fd7-a229-7c3176477d37" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CCC" />
+<OptionalValue Guid="c051bac9-1217-44a5-af6a-9c69b3d92b0b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Type1" />
+<OptionalValue Guid="afc3894d-73ed-4601-ab25-3c61e80a8ecc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Type2" />
+<OptionalValue Guid="25ceed3c-1db1-4fd7-a229-7c3176477d37" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Type3" />
 </OptionalValuesList>
 </VariableSelectionList>
 <VariableSelectionList Guid="da48243e-8605-4a38-81f2-03845c671a45" MappedOutputType="None" Name="CheckingCategoryNum" ParentGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ParentName="Generic Validation 1" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" Value="111">

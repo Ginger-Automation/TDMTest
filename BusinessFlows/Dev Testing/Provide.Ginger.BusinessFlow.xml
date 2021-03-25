@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="25" LastUpdateBy="natishak" LastUpdate="202007201312" />
+<GingerRepositoryItem><Header ItemGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072100" GingerVersion="3.6.0.0" Version="28" LastUpdateBy="NATISHAK" LastUpdate="202103250826" />
 <BusinessFlow Description="sdf" Elapsed="56439" Guid="b75cdce4-c237-4a65-93a5-afb4a917c46f" Name="Provide" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="CPQ" ActivityName="CPQ_Provide" AutomationStatus="Development" Description="xdxc" ErrorHandlerMappingType="AllAvailableHandlers" Guid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
@@ -160,12 +160,12 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="40efa2c3-b4d3-4ca7-91d8-980d872d0050" Name="CPQ" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="xdxc" ActivityGuid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ActivityName="CPQ_Provide" Guid="d36e15bc-cd6b-444a-839b-6c137134045b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityDescription="xdxc" ActivityGuid="30853dc4-0fce-4654-9ea4-6a20306f0a14" ActivityName="CPQ_Provide" Guid="b9be76fb-40cd-43ea-a583-2cd6994e4ed3" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 <ActivitiesGroup Guid="c9a1f673-52c3-4313-a05d-02daebe4051e" Name="SOM" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="13b3175a-8e93-4788-a8cf-734bfc40a82a" ActivityName="SOM_Provide" Guid="c33fbfa1-6d3d-47ea-ac98-752d7d3f18e4" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="13b3175a-8e93-4788-a8cf-734bfc40a82a" ActivityName="SOM_Provide" Guid="372a12b8-d87e-4c43-8093-48a183ca810a" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
@@ -177,11 +177,11 @@
 
 <Variables>
 <VariableString Guid="c65d596b-3d81-44b7-a6c2-38dbf5566c4d" MappedOutputType="None" Name="ProvideCustomerID" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" />
-<VariableSelectionList Guid="4716907d-3294-4c71-b7a8-9f95f6cd2fc8" MappedOutputType="None" Name="PackageType" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" Value="AAA">
+<VariableSelectionList Guid="4716907d-3294-4c71-b7a8-9f95f6cd2fc8" MappedOutputType="None" Name="PackageType" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True">
 <OptionalValuesList>
-<OptionalValue Guid="dcb01ee6-1bb6-4a2c-9f13-228ecb2e614c" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AAA" />
-<OptionalValue Guid="26d80632-1571-4944-9e01-afc143dca634" ParentGuid="00000000-0000-0000-0000-000000000000" Value="BBB" />
-<OptionalValue Guid="a0c13011-a829-4829-b215-7b67921cd290" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CCC" />
+<OptionalValue Guid="dcb01ee6-1bb6-4a2c-9f13-228ecb2e614c" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Package1" />
+<OptionalValue Guid="26d80632-1571-4944-9e01-afc143dca634" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Package2" />
+<OptionalValue Guid="a0c13011-a829-4829-b215-7b67921cd290" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Package3" />
 </OptionalValuesList>
 </VariableSelectionList>
 <VariableString Guid="00727de4-bde0-4761-85a8-681e8a86c282" MappedOutputType="None" Name="CategoryNum" ParentGuid="b75cdce4-c237-4a65-93a5-afb4a917c46f" ParentName="Provide" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
