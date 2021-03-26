@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="5" LastUpdateBy="MENIK" LastUpdate="202101210932" />
+<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="6" LastUpdateBy="NATISHAK" LastUpdate="202103261713" />
 <BusinessFlow Guid="378221e0-ec95-4301-92f7-cf30b2d7f164" Name="Generic Validation 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="275dc808-8332-4ff1-81f5-56d1f485ae65" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CPQ">
@@ -73,7 +73,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="19bdfc94-ba95-4683-ac2b-7a430a93fdb6" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="275dc808-8332-4ff1-81f5-56d1f485ae65" ActivityName="Activity 1" Guid="1acf516e-2ae2-4a97-8303-048695317e3b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="275dc808-8332-4ff1-81f5-56d1f485ae65" ActivityName="Activity 1" Guid="03e78118-af72-49b0-a7d5-32e18dcbc789" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
@@ -83,6 +83,6 @@
 </TargetApplications>
 
 <Variables>
-<VariableString Guid="7d1e7668-516f-4f85-97e4-5b19eadc1987" MappedOutputType="None" Name="Customer_ID" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="7d1e7668-516f-4f85-97e4-5b19eadc1987" MappedOutputType="None" Name="Customer_ID" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsOutputValue="False" />
 </Variables>
 </BusinessFlow></GingerRepositoryItem>
