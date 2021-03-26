@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="7174b436-6224-4668-a5bb-fb7097e56ec5" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="86" LastUpdateBy="NATISHAK" LastUpdate="202103261243" />
+<GingerRepositoryItem><Header ItemGuid="7174b436-6224-4668-a5bb-fb7097e56ec5" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202001152030" GingerVersion="3.6.0.0" Version="90" LastUpdateBy="NATISHAK" LastUpdate="202103261609" />
 <BusinessFlow Elapsed="12362" Guid="7174b436-6224-4668-a5bb-fb7097e56ec5" Name="Create" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Create Lead" ActivityName="TDM Data Setup" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="SOM">
@@ -14,19 +14,19 @@
 <ActInputValue Guid="ecbf7f20-7d83-4d4b-8590-f464dfa815fa" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActDummy>
-<ActSetVariableValue Active="True" Description="Set Name Output" Guid="03e754a8-ca36-4c9f-a507-ff7a8df7b5ec" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="BP_CustomerName" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActSetVariableValue Active="True" Description="Set Name Output" Guid="03e754a8-ca36-4c9f-a507-ff7a8df7b5ec" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="FIRSTName" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="273911a4-d840-40c8-868d-88d136dffd5c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JHON {Var Name=Site City}" />
+<ActInputValue Guid="273911a4-d840-40c8-868d-88d136dffd5c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JHON {Var Name=LASTNAME}" />
 </InputValues>
 </ActSetVariableValue>
 </Acts>
 
 <Variables>
 <VariableString Description="Sample : &quot;23 INVERNESS WAY E&quot;" Guid="909e45e3-94a5-4ad2-8498-b8d3dc08547a" InitialStringValue="871 GRAND ARMY HWY" MappedOutputType="None" Name="Site Address Line1" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" />
-<VariableString Description="Sample: &quot;ENGLEWOOD&quot;" Guid="962a5ba0-5447-41bc-8b8e-aeca17897b4d" InitialStringValue="SOMERSET" MappedOutputType="None" Name="Site City" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" />
-<VariableString Description="Sample: &quot;CO&quot;" Guid="e2dadd5b-11fe-4014-a063-f49a877d1641" InitialStringValue="MA" MappedOutputType="None" Name="Site State" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" />
-<VariableString Description="80112" Guid="c0a31179-a018-4ca1-9cba-8371bd846cff" InitialStringValue="02726" MappedOutputType="None" Name="Site Zipcode" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" />
-<VariableSelectionList Guid="04a72470-a53a-4bfb-b55c-5514b9c1d220" MappedOutputType="None" Name="Static IP Version Type1" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="P2P">
+<VariableString Description="Sample: &quot;ENGLEWOOD&quot;" Guid="962a5ba0-5447-41bc-8b8e-aeca17897b4d" InitialStringValue="Ghodke" MappedOutputType="None" Name="LASTNAME" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" />
+<VariableString Description="Sample: &quot;CO&quot;" Guid="e2dadd5b-11fe-4014-a063-f49a877d1641" InitialStringValue="MA" MappedOutputType="None" Name="Site State" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" />
+<VariableString Description="80112" Guid="c0a31179-a018-4ca1-9cba-8371bd846cff" InitialStringValue="02726" MappedOutputType="None" Name="Site Zipcode" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" />
+<VariableSelectionList Guid="04a72470-a53a-4bfb-b55c-5514b9c1d220" MappedOutputType="None" Name="Static IP Version Type1" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="P2P">
 <OptionalValuesList>
 <OptionalValue Guid="d3a7afa1-b064-42cd-bc05-1a9120d71256" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 <OptionalValue Guid="91668101-61aa-4738-9207-5be50526826a" ParentGuid="00000000-0000-0000-0000-000000000000" Value="P2P" />
@@ -54,7 +54,7 @@
 <OptionalValue Guid="0569f1de-9181-4296-b8b3-16db3022f96d" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer_IP_Block" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Guid="e6c49950-a780-4dfb-b4bd-6aa529a98211" MappedOutputType="None" Name="Static IP Provider1" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="Comcast">
+<VariableSelectionList Guid="e6c49950-a780-4dfb-b4bd-6aa529a98211" MappedOutputType="None" Name="Static IP Provider1" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="Comcast">
 <OptionalValuesList>
 <OptionalValue Guid="379f257b-8fd9-4718-a8cb-22de8d720a47" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Comcast" />
 <OptionalValue Guid="2016d161-bd06-475b-a883-da18b9bf2bf6" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer" />
@@ -81,7 +81,7 @@
 <OptionalValue Guid="c7aaaaae-87a4-4631-b8f3-0cb95d3c897f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Calendar.xsl/WUAT_BGP/EVCEndpoint_IPVersion_1&#xD;&#xA;" Guid="46adc4d6-ddfb-4252-a528-bf8d57e7f84b" MappedOutputType="None" Name="Static IP Version1" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="IPv4">
+<VariableSelectionList Description="Calendar.xsl/WUAT_BGP/EVCEndpoint_IPVersion_1&#xD;&#xA;" Guid="46adc4d6-ddfb-4252-a528-bf8d57e7f84b" MappedOutputType="None" Name="Static IP Version1" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="IPv4">
 <OptionalValuesList>
 <OptionalValue Guid="33ceb016-0bcf-493c-8b8f-42503c9c60b3" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IPv4" />
 <OptionalValue Guid="23e43f8b-a805-468f-9e34-e549da0fe1e8" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IPv6" />
@@ -108,7 +108,7 @@
 <OptionalValue Guid="c2793091-3be1-4640-b6de-f3b797a8f77f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Need to use valid combination.&#xD;&#xA;Sample: P2P,Comcast,IPV4&#xD;&#xA;Valid quantity:&#xD;&#xA;/30&#xD;&#xA;/29" Guid="ab977165-63d5-4bb5-b852-f731f3b7c696" MappedOutputType="None" Name="Static IP Quantity1" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="/30">
+<VariableSelectionList Description="Need to use valid combination.&#xD;&#xA;Sample: P2P,Comcast,IPV4&#xD;&#xA;Valid quantity:&#xD;&#xA;/30&#xD;&#xA;/29" Guid="ab977165-63d5-4bb5-b852-f731f3b7c696" MappedOutputType="None" Name="Static IP Quantity1" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="/30">
 <OptionalValuesList>
 <OptionalValue Guid="1e087b30-165a-4be8-b515-d5329bb8b1e4" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/30" />
 <OptionalValue Guid="6008647e-9720-4858-89c5-780cf0100759" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/29" />
@@ -207,7 +207,7 @@
 <OptionalValue Guid="4421ecd7-9547-49ed-8799-314e981c3026" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Guid="c58487a9-ef66-487e-9aea-d06f843f1beb" MappedOutputType="None" Name="Bandwidth Mbps" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="100">
+<VariableSelectionList Guid="c58487a9-ef66-487e-9aea-d06f843f1beb" MappedOutputType="None" Name="Bandwidth Mbps" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="100">
 <OptionalValuesList>
 <OptionalValue Guid="eb9976e1-e0c5-49db-9255-f0cf9fa2f793" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1" />
 <OptionalValue Guid="921550bb-5fef-4390-8a17-2b513cb4677b" ParentGuid="00000000-0000-0000-0000-000000000000" Value="2" />
@@ -261,7 +261,7 @@
 <OptionalValue Guid="eaf21748-eab0-4a21-a672-00908d1c0288" ParentGuid="00000000-0000-0000-0000-000000000000" Value="100000" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Description="Sample: for selected badwidth; 10-100 Mbps, the valid options for &quot;Phisical Interface Type&quot; is only: 100Base_TX" Guid="b02f511b-8570-47ae-ac6b-d2edda140e34" MappedOutputType="None" Name="Phisical Interface Type" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="1000Base_SX">
+<VariableSelectionList Description="Sample: for selected badwidth; 10-100 Mbps, the valid options for &quot;Phisical Interface Type&quot; is only: 100Base_TX" Guid="b02f511b-8570-47ae-ac6b-d2edda140e34" MappedOutputType="None" Name="Phisical Interface Type" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="1000Base_SX">
 <OptionalValuesList>
 <OptionalValue Guid="5cdb1f6e-e782-403a-b0d6-3882a1ff75b4" ParentGuid="00000000-0000-0000-0000-000000000000" Value="100Base_TX" />
 <OptionalValue Guid="c195c725-6d02-4daa-a52a-d42000b33587" ParentGuid="00000000-0000-0000-0000-000000000000" Value="10Gbase_SR" />
@@ -276,7 +276,7 @@
 <OptionalValue Guid="bdc99cbe-6106-4d68-8107-8106113c1218" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1000Base_ZR" />
 </OptionalValuesList>
 </VariableSelectionList>
-<VariableSelectionList Guid="2613441f-57fb-44e4-ab97-5304d04024ed" MappedOutputType="None" Name="Term Length (months)" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" Publish="True" SetAsOutputValue="False" Value="36">
+<VariableSelectionList Guid="2613441f-57fb-44e4-ab97-5304d04024ed" MappedOutputType="None" Name="Term Length (months)" ParentGuid="1d95147b-360c-42a2-8b2e-e4b5320a32a0" ParentName="TDM Data Setup" ParentType="Step" SetAsOutputValue="False" Value="36">
 <OptionalValuesList>
 <OptionalValue Guid="cdad0bba-baa2-47c8-981d-752f13b4bd6e" ParentGuid="00000000-0000-0000-0000-000000000000" Value="24" />
 <OptionalValue Guid="7cb7a557-a0a4-4a63-8c03-577d38e87b8e" ParentGuid="00000000-0000-0000-0000-000000000000" Value="36" />
@@ -388,7 +388,7 @@
 <InputValues>
 <ActInputValue Guid="43812cf1-2127-4b15-9bb1-e16bebca9113" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
 <ActInputValue Guid="53ed4b24-ded5-4258-a1c6-1d3954ef24d5" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0a371b66-df00-4c01-a2da-aefc1934e8c1_fdc1d401-1c4e-4cb0-9e06-9ea8c8dc190c" />
-<ActInputValue Guid="516476bb-1e1a-4e69-8c39-0760f4ca4b5d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=LoginMail}" />
+<ActInputValue Guid="516476bb-1e1a-4e69-8c39-0760f4ca4b5d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=EMAIL}" />
 <ActInputValue Guid="ba5ddda3-12e5-44b5-bd42-e51d47de36ec" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
 <ActInputValue Guid="be3a604d-de7b-4495-adbc-5effc7c66070" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
 <ActInputValue Guid="53378e75-4c0e-4007-b7d0-05433ba4633c" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
@@ -591,8 +591,8 @@
 
 <Variables>
 <VariableRandomNumber Guid="5c257962-2c7e-4556-b5c4-601ac56d33f0" Interval="59952254" IsInteger="True" MappedOutputType="None" Max="9000000000" Min="7000000000" Name="CustomerID" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsInputValue="False" />
-<VariableString Guid="d69bdaba-45b7-47c8-83cc-393b439ecc58" InitialStringValue="abc@amdocs.com" MappedOutputType="None" Name="LoginMail" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="d69bdaba-45b7-47c8-83cc-393b439ecc58" InitialStringValue="abc@amdocs.com" MappedOutputType="None" Name="EMAIL" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
 <VariableString Guid="1213969e-8f86-4a05-9c4f-7b5a9473cc71" InitialStringValue="IFrameworkAgreement_14233736" MappedOutputType="None" Name="BP_FrameworkAgreementID" ParentGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ParentName="EDI_TB_R4_1" ParentType="Sub Business Process" Publish="True" SetAsInputValue="False" />
-<VariableString Guid="815a2efd-45cb-436d-a045-170935c02ab6" InitialStringValue="Jhon Smith" MappedOutputType="None" Name="BP_CustomerName" ParentGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ParentName="EDI_TB_R4_1" ParentType="Sub Business Process" Publish="True" SetAsInputValue="False" />
+<VariableString Guid="815a2efd-45cb-436d-a045-170935c02ab6" InitialStringValue="Jinendra" MappedOutputType="None" Name="FIRSTName" ParentGuid="32fc9234-9d10-45cd-a42d-80efaaf268b2" ParentName="EDI_TB_R4_1" ParentType="Sub Business Process" Publish="True" />
 </Variables>
 </BusinessFlow></GingerRepositoryItem>

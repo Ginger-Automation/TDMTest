@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="5e5f5490-282d-421b-837b-5533005fa7d2" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="112" LastUpdateBy="NATISHAK" LastUpdate="202103251118" />
+<GingerRepositoryItem><Header ItemGuid="5e5f5490-282d-421b-837b-5533005fa7d2" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="113" LastUpdateBy="NATISHAK" LastUpdate="202103261614" />
 <RunSetConfig Guid="5e5f5490-282d-421b-837b-5533005fa7d2" Name="ModifyPackage" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="c8129d13-5b83-447f-954e-d78a1cc50f67" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="AOT_221" UseSpecificEnvironment="True">
@@ -9,16 +9,16 @@
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="3d7f5675-ba0e-4cf5-b42c-35313c043da8" BusinessFlowInstanceGuid="a74e703a-d41e-40d9-ba86-6b72f3ee5cdb" BusinessFlowIsActive="True" BusinessFlowName="ModifyPackage" Guid="47f42a8d-50d7-4af0-b222-3a3f99a53464" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<BusinessFlowRun BusinessFlowGuid="10244c7a-0a8e-4f90-ad74-069b5e872787" BusinessFlowInstanceGuid="71656223-da42-494a-b0d7-6e5a4cd5821b" BusinessFlowIsActive="True" BusinessFlowName="ModifyPackage_Validation" Guid="bfa7b70e-a830-46b8-ad38-dcf80ec12164" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowRun BusinessFlowGuid="3d7f5675-ba0e-4cf5-b42c-35313c043da8" BusinessFlowInstanceGuid="a74e703a-d41e-40d9-ba86-6b72f3ee5cdb" BusinessFlowIsActive="True" BusinessFlowName="ModifyPackage" Guid="19c1de44-84f6-455d-891b-fc7886894e71" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="10244c7a-0a8e-4f90-ad74-069b5e872787" BusinessFlowInstanceGuid="71656223-da42-494a-b0d7-6e5a4cd5821b" BusinessFlowIsActive="True" BusinessFlowName="ModifyPackage_Validation" Guid="bc45eb05-c4b5-43e8-b380-47d4841fa644" ParentGuid="00000000-0000-0000-0000-000000000000">
 <BusinessFlowCustomizedRunVariables>
-<VariableString DiffrentFromOrigin="True" Guid="b95ab8c8-f930-49a6-8411-82e86e33b1af" MappedOutputType="OutputVariable" MappedOutputValue="94b50452-f59c-422c-a5c1-3a8ddef89a46" Name="CustomerIDToCheck" ParentGuid="10244c7a-0a8e-4f90-ad74-069b5e872787" ParentName="ModifyPackage_Validation" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
-<VariableString DiffrentFromOrigin="True" Guid="e60ef7c8-ee36-4c01-8a17-015ca4729001" InitialStringValue="AAA" MappedOutputType="OutputVariable" MappedOutputValue="db9dcffe-c4f9-4c69-b823-66b91d58d3c8" Name="CustomerPackageToConfirm" ParentGuid="10244c7a-0a8e-4f90-ad74-069b5e872787" ParentName="ModifyPackage_Validation" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString DiffrentFromOrigin="True" Guid="b95ab8c8-f930-49a6-8411-82e86e33b1af" MappedOutputType="OutputVariable" MappedOutputValue="94b50452-f59c-422c-a5c1-3a8ddef89a46" Name="CustomerIDToCheck" ParentGuid="10244c7a-0a8e-4f90-ad74-069b5e872787" ParentName="ModifyPackage_Validation" ParentType="Business Flow" SetAsOutputValue="False" />
+<VariableString DiffrentFromOrigin="True" Guid="e60ef7c8-ee36-4c01-8a17-015ca4729001" InitialStringValue="AAA" MappedOutputType="OutputVariable" MappedOutputValue="db9dcffe-c4f9-4c69-b823-66b91d58d3c8" Name="CustomerPackageToConfirm" ParentGuid="10244c7a-0a8e-4f90-ad74-069b5e872787" ParentName="ModifyPackage_Validation" ParentType="Business Flow" SetAsOutputValue="False" />
 </BusinessFlowCustomizedRunVariables>
 </BusinessFlowRun>
-<BusinessFlowRun BusinessFlowGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" BusinessFlowInstanceGuid="66200ab5-1a0c-4c64-9d46-9d43b1df1a04" BusinessFlowIsActive="True" BusinessFlowName="Generic Validation 1" Guid="b80f8252-ea72-435d-8d65-3470292940f7" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowRun BusinessFlowGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" BusinessFlowInstanceGuid="66200ab5-1a0c-4c64-9d46-9d43b1df1a04" BusinessFlowIsActive="True" BusinessFlowName="Generic Validation 1" Guid="bf40e2cf-eec1-4eb8-81d6-cbaae85fcfa1" ParentGuid="00000000-0000-0000-0000-000000000000">
 <BusinessFlowCustomizedRunVariables>
-<VariableString DiffrentFromOrigin="True" Guid="76704afd-c090-4afb-8a48-d950156f1fe8" MappedOutputType="OutputVariable" MappedOutputValue="94b50452-f59c-422c-a5c1-3a8ddef89a46" Name="CustomerID" ParentGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ParentName="Generic Validation 1" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString DiffrentFromOrigin="True" Guid="76704afd-c090-4afb-8a48-d950156f1fe8" MappedOutputType="OutputVariable" MappedOutputValue="94b50452-f59c-422c-a5c1-3a8ddef89a46" Name="CustomerID" ParentGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ParentName="Generic Validation 1" ParentType="Business Flow" SetAsOutputValue="False" />
 <VariableSelectionList DiffrentFromOrigin="True" Guid="da48243e-8605-4a38-81f2-03845c671a45" MappedOutputType="None" Name="CheckingCategoryNum" ParentGuid="4ebf8594-27d8-4b16-a7da-7829079de28e" ParentName="Generic Validation 1" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" Value="333" VarValChanged="True">
 <OptionalValuesList>
 <OptionalValue Guid="035f0d80-ed1d-4ba9-919e-3bedffcdf334" ParentGuid="00000000-0000-0000-0000-000000000000" Value="111" />

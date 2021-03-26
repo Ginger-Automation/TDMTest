@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="10244c7a-0a8e-4f90-ad74-069b5e872787" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231554" GingerVersion="3.6.0.0" Version="4" LastUpdateBy="MENIK" LastUpdate="202007231557" />
+<GingerRepositoryItem><Header ItemGuid="10244c7a-0a8e-4f90-ad74-069b5e872787" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231554" GingerVersion="3.6.0.0" Version="5" LastUpdateBy="NATISHAK" LastUpdate="202103261613" />
 <BusinessFlow Guid="10244c7a-0a8e-4f90-ad74-069b5e872787" Name="ModifyPackage_Validation" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="e80c111b-0e0f-4dcb-abeb-23b8cb56ae84" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="SOM">
@@ -71,7 +71,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="de348bc2-e6f7-4ad1-bad3-06fc8962d936" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e80c111b-0e0f-4dcb-abeb-23b8cb56ae84" ActivityName="Activity 1" Guid="cb5336c9-d3d9-41e1-b923-2364bef45db7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e80c111b-0e0f-4dcb-abeb-23b8cb56ae84" ActivityName="Activity 1" Guid="0af33486-8640-42bb-8cfb-b486d0dcff8d" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
@@ -81,7 +81,7 @@
 </TargetApplications>
 
 <Variables>
-<VariableString Guid="b95ab8c8-f930-49a6-8411-82e86e33b1af" MappedOutputType="None" Name="CustomerIDToCheck" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
-<VariableString Guid="e60ef7c8-ee36-4c01-8a17-015ca4729001" MappedOutputType="None" Name="CustomerPackageToConfirm" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="b95ab8c8-f930-49a6-8411-82e86e33b1af" MappedOutputType="None" Name="CustomerIDToCheck" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsOutputValue="False" />
+<VariableString Guid="e60ef7c8-ee36-4c01-8a17-015ca4729001" MappedOutputType="None" Name="CustomerPackageToConfirm" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsOutputValue="False" />
 </Variables>
 </BusinessFlow></GingerRepositoryItem>
