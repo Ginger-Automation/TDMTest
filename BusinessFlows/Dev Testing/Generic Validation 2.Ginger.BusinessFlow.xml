@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="6" LastUpdateBy="NATISHAK" LastUpdate="202103261713" />
+<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="7" LastUpdateBy="NATISHAK" LastUpdate="202103281005" />
 <BusinessFlow Guid="378221e0-ec95-4301-92f7-cf30b2d7f164" Name="Generic Validation 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="275dc808-8332-4ff1-81f5-56d1f485ae65" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CPQ">
+<Activity ActionRunOption="StopActionsRunOnFailure" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="275dc808-8332-4ff1-81f5-56d1f485ae65" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CPQ">
 <Acts>
 <ActDBValidation Active="True" AppName="SOM" DBName="TDM_DB" DBValidationType="FreeSQL" Description="Validate Customer status is valid" Guid="d2fb073d-4355-49d0-9c10-059cb014ab20" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
