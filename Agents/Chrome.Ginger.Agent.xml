@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="abc1306b-6cbc-497e-8255-92830a7b0e21" ItemType="Agent" CreatedBy="MENIK" Created="202001152026" GingerVersion="3.7.0.0" Version="3" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
+<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="abc1306b-6cbc-497e-8255-92830a7b0e21" ItemType="Agent" CreatedBy="MENIK" Created="202001152026" GingerVersion="3.6.0.0" Version="3" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <Agent Active="True" AgentType="Driver" DriverType="SeleniumChrome" Guid="abc1306b-6cbc-497e-8255-92830a7b0e21" Name="Chrome" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web">
 <DriverConfiguration>
 <DriverConfigParam Description="Proxy Server:Port" Guid="6845487e-658f-4386-a68e-a9a3bbeabbd3" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
@@ -14,7 +14,7 @@
 <DriverConfigParam Description="Only for Chrome &amp; Firefox | Set &quot;true&quot; to run the browser in background (headless mode) for faster Execution" Guid="28a5b060-01d8-447d-9dba-cce5bc96e039" Parameter="HeadlessBrowserMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
 <DriverConfigParam Description="Set &quot;true&quot; to Launch the Browser minimized" Guid="db25e1a7-11d4-4715-beca-4db36d40e2fa" Parameter="BrowserMinimized" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
 <DriverConfigParam Description="Hide the Driver Console (Command Prompt) Window" Guid="99d78b12-ccd0-4bc3-b8f2-0af3bdb8b4c8" Parameter="HideConsoleWindow" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
-<DriverConfigParam Description="Only For Chrome : Use a valid device name from the DevTools Emulation panel." Guid="f9b3d5a5-ab73-48db-8cf7-19e45fafd919" Parameter="EmulationDeviceName" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Only For Chrome : Use a valid device name from the�DevTools Emulation panel." Guid="f9b3d5a5-ab73-48db-8cf7-19e45fafd919" Parameter="EmulationDeviceName" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <DriverConfigParam Description="Only For Chrome &amp; Firefox : A browser's user agent string (UA) helps identify which browser is being used, what version, and on which operating system" Guid="049506f8-8b8c-4a47-9384-f0a72865c76d" Parameter="BrowserUserAgent" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <DriverConfigParam Description="The height in pixels of the browser's viewable area" Guid="1862e0fe-c75d-42b7-bb72-82cbec303bc3" Parameter="BrowserHeight" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <DriverConfigParam Description="The width in pixels of the browser's viewable area" Guid="3df9413f-bab3-4ab4-b172-bf944c1367b8" Parameter="BrowserWidth" ParentGuid="00000000-0000-0000-0000-000000000000" />

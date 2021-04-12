@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.7.0.0" Version="8" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
+<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="8" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <BusinessFlow Guid="378221e0-ec95-4301-92f7-cf30b2d7f164" Name="Generic Validation 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="275dc808-8332-4ff1-81f5-56d1f485ae65" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CPQ">

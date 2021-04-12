@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="26daabd4-fb49-4685-92f2-f80c5eb8a09e" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.7.0.0" Version="115" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
+<GingerRepositoryItem><Header ItemGuid="26daabd4-fb49-4685-92f2-f80c5eb8a09e" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="115" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <RunSetConfig Guid="26daabd4-fb49-4685-92f2-f80c5eb8a09e" Name="Delete" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="d18810bf-74ee-4d1b-aabd-bb8e764c4da6" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="TTR_445" UseSpecificEnvironment="True">

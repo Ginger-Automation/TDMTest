@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="80e3a8df-6af6-4026-b15e-fe033c54699b" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072047" GingerVersion="3.7.0.0" Version="23" LastUpdateBy="NATISHAK" LastUpdate="202104121223" />
+<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="80e3a8df-6af6-4026-b15e-fe033c54699b" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072047" GingerVersion="3.6.0.0" Version="23" LastUpdateBy="NATISHAK" LastUpdate="202104121223" />
 <BusinessFlow Elapsed="4113" Guid="80e3a8df-6af6-4026-b15e-fe033c54699b" Name="Order Creation" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Modify" ActivityName="ModifyName" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="8c2c06f2-27d0-4c55-9e36-0f063f62f815" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">

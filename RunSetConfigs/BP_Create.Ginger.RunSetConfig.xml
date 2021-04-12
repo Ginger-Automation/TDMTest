@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="14cdc3e5-3a62-47a1-bfae-34c85ba086e5" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.7.0.0" Version="117" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
+<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="14cdc3e5-3a62-47a1-bfae-34c85ba086e5" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="117" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <RunSetConfig Guid="14cdc3e5-3a62-47a1-bfae-34c85ba086e5" Name="Create_Customer" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="83cd17d7-1e56-498e-a2d5-18fcc2331b6b" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="PLAB1" UseSpecificEnvironment="True">

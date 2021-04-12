@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="c87a359b-4ecc-486b-ba02-be04be529f7a" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001160924" GingerVersion="3.7.0.0" Version="6" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
+<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c87a359b-4ecc-486b-ba02-be04be529f7a" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001160924" GingerVersion="3.6.0.0" Version="6" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <RunSetConfig Guid="c87a359b-4ecc-486b-ba02-be04be529f7a" Name="BP_EDI_TB_R5_1-InProgress" ParentGuid="00000000-0000-0000-0000-000000000000">
 <GingerRunners>
 <GingerRunner Guid="6614fa96-3125-4832-ba5e-cfeeb7c30a14" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">

@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="cfe8260f-a05a-4f27-8d86-1e200e8c3b65" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.7.0.0" Version="117" LastUpdateBy="NATISHAK" LastUpdate="202104121224" />
+<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="cfe8260f-a05a-4f27-8d86-1e200e8c3b65" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="117" LastUpdateBy="NATISHAK" LastUpdate="202104121224" />
 <RunSetConfig Guid="cfe8260f-a05a-4f27-8d86-1e200e8c3b65" Name="Order Creation" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="70669f3b-d7bf-44c8-836b-390477676e3a" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="AOT_221" UseSpecificEnvironment="True">

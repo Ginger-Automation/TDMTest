@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="27968287-bf02-4eb5-8e2e-da2da6e5a270" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.7.0.0" Version="164" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
+<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="27968287-bf02-4eb5-8e2e-da2da6e5a270" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="164" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <RunSetConfig Guid="27968287-bf02-4eb5-8e2e-da2da6e5a270" Name="Provide" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="e0e3b173-53ee-4816-ac9f-d290640dc937" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="VAPP_89" UseSpecificEnvironment="True">

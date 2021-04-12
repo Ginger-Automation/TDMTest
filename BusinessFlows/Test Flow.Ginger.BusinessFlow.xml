@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="2735400b-10aa-4140-99b8-766c418f4066" ItemType="BusinessFlow" CreatedBy="natishak" Created="202007091002" GingerVersion="3.7.0.0" Version="12" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
+<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="2735400b-10aa-4140-99b8-766c418f4066" ItemType="BusinessFlow" CreatedBy="natishak" Created="202007091002" GingerVersion="3.6.0.0" Version="12" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <BusinessFlow Guid="2735400b-10aa-4140-99b8-766c418f4066" Name="Test Flow45555" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="25d6d01c-2c1f-4282-8aa3-85ffeb1c589a" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="SOM">

@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="6297cd8c-5d65-4c7e-b0ca-6de3201abb65" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072047" GingerVersion="3.7.0.0" Version="17" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
+<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="6297cd8c-5d65-4c7e-b0ca-6de3201abb65" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072047" GingerVersion="3.6.0.0" Version="17" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <BusinessFlow Elapsed="4113" Guid="6297cd8c-5d65-4c7e-b0ca-6de3201abb65" Name="Delete" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Delete Customer" ActivityName="DeleteCustomer" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="8c2c06f2-27d0-4c55-9e36-0f063f62f815" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
