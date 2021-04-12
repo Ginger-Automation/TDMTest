@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b176789d-8bd6-4374-a277-0a197047f6ce" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="116" LastUpdateBy="MENIK" LastUpdate="202009131945" />
+<GingerRepositoryItem><Header ItemGuid="b176789d-8bd6-4374-a277-0a197047f6ce" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.7.0.0" Version="117" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <RunSetConfig Guid="b176789d-8bd6-4374-a277-0a197047f6ce" Name="BP_Calculator" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="b9c1e761-5255-4d88-8fca-d035ef7fbaa0" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="TTR_445" UseSpecificEnvironment="True">

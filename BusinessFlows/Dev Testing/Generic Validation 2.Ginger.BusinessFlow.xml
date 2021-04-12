@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.6.0.0" Version="7" LastUpdateBy="NATISHAK" LastUpdate="202103281005" />
+<GingerRepositoryItem><Header ItemGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202007231527" GingerVersion="3.7.0.0" Version="8" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <BusinessFlow Guid="378221e0-ec95-4301-92f7-cf30b2d7f164" Name="Generic Validation 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="275dc808-8332-4ff1-81f5-56d1f485ae65" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CPQ">
@@ -73,7 +73,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="19bdfc94-ba95-4683-ac2b-7a430a93fdb6" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="275dc808-8332-4ff1-81f5-56d1f485ae65" ActivityName="Activity 1" Guid="03e78118-af72-49b0-a7d5-32e18dcbc789" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="275dc808-8332-4ff1-81f5-56d1f485ae65" ActivityName="Activity 1" Guid="48b0a63e-a5a7-40ee-a838-78b4a7aed572" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

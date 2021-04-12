@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="cfe8260f-a05a-4f27-8d86-1e200e8c3b65" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.6.0.0" Version="115" LastUpdateBy="NATISHAK" LastUpdate="202103281005" />
-<RunSetConfig Guid="cfe8260f-a05a-4f27-8d86-1e200e8c3b65" Name="ModifyName" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<GingerRepositoryItem><Header ItemGuid="cfe8260f-a05a-4f27-8d86-1e200e8c3b65" ItemType="RunSetConfig" CreatedBy="MENIK" Created="202001152114" GingerVersion="3.7.0.0" Version="117" LastUpdateBy="NATISHAK" LastUpdate="202104121224" />
+<RunSetConfig Guid="cfe8260f-a05a-4f27-8d86-1e200e8c3b65" Name="Order Creation" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="70669f3b-d7bf-44c8-836b-390477676e3a" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" SpecificEnvironmentName="AOT_221" UseSpecificEnvironment="True">
 <ApplicationAgents>
@@ -8,12 +8,12 @@
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="80e3a8df-6af6-4026-b15e-fe033c54699b" BusinessFlowInstanceGuid="2e6a6116-9459-4ed9-887b-26fb28cfa616" BusinessFlowIsActive="True" BusinessFlowName="ModifyName" Guid="548b86e5-f4b3-49fa-b99a-bdaa75f9ac72" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowRun BusinessFlowGuid="80e3a8df-6af6-4026-b15e-fe033c54699b" BusinessFlowInstanceGuid="2e6a6116-9459-4ed9-887b-26fb28cfa616" BusinessFlowIsActive="True" BusinessFlowName="Order Creation" Guid="f1719b5e-be44-4a8d-905f-ddd2e28d68f8" ParentGuid="00000000-0000-0000-0000-000000000000">
 <BusinessFlowCustomizedRunVariables>
-<VariableString DiffrentFromOrigin="True" Guid="826290d1-c04d-41b4-bcd1-6089e6007098" InitialStringValue="Michel" MappedOutputType="None" Name="CustomerNameToSet" ParentGuid="80e3a8df-6af6-4026-b15e-fe033c54699b" ParentName="ModifyName" ParentType="Business Flow" Publish="True" VarValChanged="True" />
+<VariableString DiffrentFromOrigin="True" Guid="826290d1-c04d-41b4-bcd1-6089e6007098" InitialStringValue="Michel" MappedOutputType="None" Name="CustomerNameToSet" ParentGuid="80e3a8df-6af6-4026-b15e-fe033c54699b" ParentName="Order Creation" ParentType="Business Flow" Publish="True" VarValChanged="True" />
 </BusinessFlowCustomizedRunVariables>
 </BusinessFlowRun>
-<BusinessFlowRun BusinessFlowGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" BusinessFlowInstanceGuid="deb2e913-b676-498f-b672-9244a50b44ba" BusinessFlowName="Generic Validation 2" Guid="6c996441-51a5-4de9-b125-2d4b658fd85c" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BusinessFlowRun BusinessFlowGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" BusinessFlowInstanceGuid="deb2e913-b676-498f-b672-9244a50b44ba" BusinessFlowName="Generic Validation 2" Guid="5f188b4d-c2d2-4004-a53f-c72199f6efbd" ParentGuid="00000000-0000-0000-0000-000000000000">
 <BusinessFlowCustomizedRunVariables>
 <VariableString DiffrentFromOrigin="True" Guid="7d1e7668-516f-4f85-97e4-5b19eadc1987" MappedOutputType="OutputVariable" MappedOutputValue="43769aaa-7977-47aa-96de-dedbd98459fc" Name="Customer_ID" ParentGuid="378221e0-ec95-4301-92f7-cf30b2d7f164" ParentName="Generic Validation 2" ParentType="Business Flow" SetAsOutputValue="False" />
 </BusinessFlowCustomizedRunVariables>

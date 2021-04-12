@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="2ed47b11-f409-4af0-ba7d-3c16220615f1" ItemType="BusinessFlow" CreatedBy="natishak" Created="202009221056" GingerVersion="3.6.0.0" Version="3" LastUpdateBy="natishak" LastUpdate="202009221059" />
+<GingerRepositoryItem><Header ItemGuid="2ed47b11-f409-4af0-ba7d-3c16220615f1" ItemType="BusinessFlow" CreatedBy="natishak" Created="202009221056" GingerVersion="3.7.0.0" Version="4" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <BusinessFlow Guid="2ed47b11-f409-4af0-ba7d-3c16220615f1" Name="Test1_Copy" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="9f19a8a7-6a59-4211-b79b-8e353117a987" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="SOM">
@@ -23,7 +23,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="ad52ec63-9396-4b97-adbe-9bf96c1bbe9d" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9f19a8a7-6a59-4211-b79b-8e353117a987" ActivityName="Activity 1" Guid="04356820-fbd5-4194-b494-10415c8beedd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9f19a8a7-6a59-4211-b79b-8e353117a987" ActivityName="Activity 1" Guid="f6c6a6be-ba91-4928-a0f9-e55396efb00a" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="3d7f5675-ba0e-4cf5-b42c-35313c043da8" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072047" GingerVersion="3.6.0.0" Version="14" LastUpdateBy="NATISHAK" LastUpdate="202103261611" />
+<GingerRepositoryItem><Header ItemGuid="3d7f5675-ba0e-4cf5-b42c-35313c043da8" ItemType="BusinessFlow" CreatedBy="MENIK" Created="202004072047" GingerVersion="3.7.0.0" Version="15" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <BusinessFlow Elapsed="4113" Guid="3d7f5675-ba0e-4cf5-b42c-35313c043da8" Name="ModifyPackage" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Modify" ActivityName="ModifyPackage" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="8c2c06f2-27d0-4c55-9e36-0f063f62f815" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="CPQ">
@@ -56,7 +56,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="c9a4bbd7-f211-45a1-b339-8c8966b1ef69" Name="Modify" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8c2c06f2-27d0-4c55-9e36-0f063f62f815" ActivityName="ModifyPackage" Guid="3056170d-d8f8-431f-8ace-1e3adfe88443" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8c2c06f2-27d0-4c55-9e36-0f063f62f815" ActivityName="ModifyPackage" Guid="e8cea2bc-5e0c-4083-9587-03afc4e5fe3f" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

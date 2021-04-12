@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="d5127931-4619-453b-b215-7cabd38e7143" ItemType="Solution" CreatedBy="MENIK" Created="202001152024" GingerVersion="3.6.0.0" Version="12" LastUpdateBy="natishak" LastUpdate="202011090601" />
+<GingerRepositoryItem><Header ItemGuid="d5127931-4619-453b-b215-7cabd38e7143" ItemType="Solution" CreatedBy="MENIK" Created="202001152024" GingerVersion="3.7.0.0" Version="13" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <Solution Guid="d5127931-4619-453b-b215-7cabd38e7143" Name="TDM-Demo" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ALMConfigs>
 <ALMConfig AlmType="QC" DefaultAlm="True" Guid="0bbac9c6-84f8-477c-99a6-9794d3f8ea70" JiraTestingALM="None" ParentGuid="00000000-0000-0000-0000-000000000000" />

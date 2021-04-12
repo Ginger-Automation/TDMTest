@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="8b07c6b1-e4db-44be-ac81-ad288cc1ced1" ItemType="RunSetConfig" CreatedBy="natishak" Created="202009221057" GingerVersion="3.6.0.0" Version="5" LastUpdateBy="natishak" LastUpdate="202009221520" />
+<GingerRepositoryItem><Header ItemGuid="8b07c6b1-e4db-44be-ac81-ad288cc1ced1" ItemType="RunSetConfig" CreatedBy="natishak" Created="202009221057" GingerVersion="3.7.0.0" Version="6" LastUpdateBy="NATISHAK" LastUpdate="202104011406" />
 <RunSetConfig Guid="8b07c6b1-e4db-44be-ac81-ad288cc1ced1" Name="TestRunner" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <GingerRunners>
 <GingerRunner Guid="865f42da-7c08-4f7b-82af-4baafeba0c7e" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
